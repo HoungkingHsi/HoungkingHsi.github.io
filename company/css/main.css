@@ -1,0 +1,1251 @@
+.height_auto {
+	height: auto !important;
+}
+#slides {
+	display: none;
+}
+#slides2 {
+	display: none;
+}
+#slides2-1 {
+	display: none;
+}
+#slides3 {
+	display: none;
+}
+#slides {
+	position: relative;
+}
+#slides3 {
+	left: 0px; position: relative;
+}
+#slides {
+	width: 100%;
+}
+#slides2 {
+	width: 100%;
+}
+#slides2-1 {
+	width: 100%;
+}
+.header_topCon {
+	display: none;
+}
+.bg_png#header {
+	background: rgb(255, 255, 255);
+}
+#menu {
+	display: none;
+}
+#main-content {
+	width: 100%; position: relative;
+}
+.main_visual {
+	width: 100%; position: relative; z-index: 1; min-height: 435px;
+}
+#slides div img {
+	width: 100%; height: 100%; min-height: 435px;
+}
+#slides .web {
+	display: none;
+}
+#slides .visual1 .moblie {
+	background: url("../img/mvisual1.jpg") no-repeat top / cover; height: 100%; display: block;
+}
+#slides .visual2 .moblie {
+	background: url("../img/mvisual2.jpg") no-repeat center 55px / cover rgb(219, 216, 209); height: 100%; display: block;
+}
+#slides .visual3 .moblie {
+	background: url("../img/mvisual3.jpg") no-repeat center / cover rgb(234, 234, 234); height: 100%; display: block;
+}
+#slides .visual4 .moblie {
+	background: url("../img/mvisual4.jpg") no-repeat center / cover rgb(234, 234, 234); height: 100%; display: block;
+}
+#slides .visual6 .moblie {
+	background: url("../img/mvisual6.jpg") no-repeat top / cover; height: 100%; display: block;
+}
+#slides .visual1 .txt_area span {
+	color: rgb(255, 255, 255);
+}
+#slides .visual1 .txt_area a {
+	color: rgb(255, 255, 255);
+}
+#slides .visual1 .txt_area a {
+	border-color: rgb(255, 255, 255);
+}
+#slides .visual3 .txt_area span {
+	color: rgb(34, 34, 34);
+}
+#slides .visual3 .txt_area a {
+	color: rgb(34, 34, 34);
+}
+#slides .visual3 .txt_area a {
+	border-color: rgb(34, 34, 34);
+}
+#slides .visual4 .txt_area span {
+	color: rgb(34, 34, 34);
+}
+#slides .visual4 .txt_area a {
+	color: rgb(34, 34, 34);
+}
+#slides .visual4 .txt_area a {
+	border-color: rgb(34, 34, 34);
+}
+#slides .visual6 .txt_area span {
+	color: rgb(34, 34, 34);
+}
+#slides .visual6 .txt_area a {
+	color: rgb(34, 34, 34);
+}
+#slides .visual6 .txt_area a {
+	border-color: rgb(34, 34, 34);
+}
+#slides > a {
+	display: inline-block;
+}
+.slidesjs-slide a {
+	display: block;
+}
+#slides .slidesjs-slide {
+	height: 100%;
+}
+#slides .slidesjs-slide .txt_area {
+	left: 15px; top: 85px; padding-right: 14px; position: absolute;
+}
+#slides .visual2.slidesjs-slide .txt_area {
+	opacity: 0;
+}
+#slides .visual3.slidesjs-slide .txt_area {
+	opacity: 0;
+}
+#slides .slidesjs-slide span {
+	color: rgb(255, 255, 255); display: block;
+}
+#slides .slidesjs-slide .txt1 {
+	line-height: 1.2; letter-spacing: -2px; font-size: 20px; font-weight: bold;
+}
+#slides .slidesjs-slide .txt2 {
+	line-height: 1.2; font-size: 12px; margin-top: 8px;
+}
+#slides .slidesjs-slide .btn-view {
+	background: url("../img/bg_btn_view.png") left top; border: 1px solid rgb(210, 221, 227); border-image: none; width: 102px; height: 28px; text-align: center; color: rgb(255, 255, 255); padding-top: 5px; font-size: 12px; margin-top: 20px; display: inline-block;
+}
+#slides .slidesjs-container {
+	min-height: 435px;
+}
+.slidesjs-pagination {
+	position: absolute; z-index: 30;
+}
+#slides .slidesjs-pagination {
+	left: 15px; bottom: 181px; display: none;
+}
+.slidesjs-pagination li {
+	margin: 2px; float: left;
+}
+.slidesjs-pagination-item a {
+	width: 10px; height: 7px; overflow: hidden; font-size: 0px; display: block; background-color: rgb(216, 216, 216);
+}
+.slidesjs-pagination-item a.active {
+	width: 35px; background-color: rgb(55, 149, 247);
+}
+.slidesjs-navigation {
+	display: inline-block; position: absolute; z-index: 30;
+}
+#slides .slidesjs-play {
+	left: 50px; width: 30px; height: 30px; bottom: 175px; text-indent: -10000px; overflow: hidden; z-index: 30;
+}
+#slides .slidesjs-stop {
+	left: 50px; width: 30px; height: 30px; bottom: 175px; text-indent: -10000px; overflow: hidden; z-index: 30;
+}
+#slides .slidesjs-previous {
+	left: 15px; width: 30px; height: 30px; bottom: 175px;
+}
+#slides .slidesjs-next {
+	left: 15px; width: 30px; height: 30px; bottom: 175px;
+}
+#slides .slidesjs-next {
+	left: 85px;
+}
+#slides .slidesjs-play {
+	background: url("../img/mbtn_play.png") no-repeat left top;
+}
+#slides .slidesjs-stop {
+	background: url("../img/mbtn_stop.png") no-repeat left top;
+}
+.posco-great {
+	background: url("../img/bg_black.png") left bottom; left: 0px; width: 100%; height: 150px; text-align: center; bottom: 0px; padding-top: 12px; padding-right: 14px; padding-left: 14px; position: absolute; z-index: 10;
+}
+.posco-great div p {
+	color: rgb(255, 255, 255); line-height: 1.4; font-size: 18px; font-weight: bold;
+}
+.posco-great div p span {
+	color: rgb(255, 255, 255); line-height: 1.4; font-size: 18px; font-weight: bold;
+}
+.posco-great div p span {
+	
+}
+.posco-great div > span {
+	color: rgb(255, 255, 255); font-size: 12px; margin-top: 3px; display: block;
+}
+.posco-great-bn {
+	text-align: center; margin-top: 15px; display: inline-block; -ms-zoom: 1;
+}
+.posco-great-bn a {
+	height: 70px; float: left; display: block;
+}
+.posco-great-bn a img {
+	width: 68px;
+}
+.posco-great-bn a span {
+	color: rgb(255, 255, 255); font-size: 12px; display: block;
+}
+.posco-great-bn a.posible > span {
+	text-align: left; padding-left: 8px;
+}
+.posco-great-bn .history_txt {
+	text-align: left; padding-left: 2px;
+}
+.posco-great-bn .vision_txt {
+	text-align: right; padding-right: 3px;
+}
+.m-tit {
+	color: rgb(0, 0, 0); font-size: 18px;
+}
+.m-tit span {
+	color: rgb(0, 0, 0); font-size: 18px;
+}
+.m-tit {
+	text-align: center; font-weight: bold;
+}
+.m-tit span {
+	
+}
+.m-tit-txt {
+	text-align: center; color: rgb(0, 0, 0); line-height: 1.2; font-size: 12px; margin-bottom: 20px;
+}
+#posco-live {
+	background: url("../img/bg_msection1.jpg") no-repeat top / cover rgb(223, 230, 237); padding: 25px 14px 0px; height: 480px; text-align: center; position: relative; z-index: 2;
+}
+.height_px#posco-live {
+	height: 480px !important;
+}
+#posco-live .m-tit-txt {
+	margin-bottom: 20px;
+}
+#slides2-1 {
+	width: 100%; text-align: left;
+}
+#slides2-1 div p {
+	height: 157px; text-align: center; overflow: hidden;
+}
+#slides2-1 div p img {
+	width: auto; height: 157px; max-width: 100%;
+}
+#slides2-1 .slidesjs-pagination {
+	left: 50%; top: 93%; margin-left: -57px; display: none;
+}
+#slides2-1 .slidesjs-pagination-item a {
+	width: 15px; background-color: rgb(135, 135, 135);
+}
+#slides2-1 .slidesjs-pagination-item a.active {
+	background-color: rgb(48, 115, 191);
+}
+#slides2-1 .slidesjs-previous {
+	left: 50%; top: 89%; width: 30px; height: 30px; margin-left: -35px;
+}
+#slides2-1 .slidesjs-next {
+	left: 50%; top: 89%; width: 30px; height: 30px; margin-left: -35px;
+}
+#slides2-1 .slidesjs-next {
+	margin-left: 5px;
+}
+#slides2-1 .slidesjs-container {
+	height: 400px !important;
+}
+#slides2-1 .slidesjs-control {
+	height: 400px !important;
+}
+#posco-live .con img {
+	
+}
+#posco-live .con {
+	padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; position: relative; background-color: rgb(255, 255, 255);
+}
+#posco-live .con1 {
+	height: 350px; overflow: hidden;
+}
+#posco-live dl {
+	margin: 15px 8px 0px; height: 130px;
+}
+#posco-live dt {
+	line-height: 1.3; font-size: 14px; font-weight: bold;
+}
+#posco-live dd {
+	line-height: 1.3; font-size: 12px; margin-top: 10px;
+}
+#posco-live dd.date {
+	color: rgb(85, 85, 85);
+}
+#posco-live dd.date span {
+	color: rgb(33, 116, 207);
+}
+.scroll-pane {
+	width: 100%; height: 200px; -ms-overflow-x: auto; -ms-overflow-y: hidden;
+}
+.horizontal-only {
+	height: auto; max-height: 165px;
+}
+.main-pro-con {
+	left: -9999px; top: 20px; height: 140px; position: absolute;
+}
+#innovative-technology {
+	background: url("../img/bg_msection2.jpg") no-repeat bottom / cover rgb(252, 252, 252); padding: 25px 14px 20px; width: 100%; height: auto; text-align: center; position: relative;
+}
+.main-tab {
+	margin: 0px auto; width: 100%; height: 248px; position: relative;
+}
+.main-tab > li {
+	width: 50%; float: left;
+}
+.main-tab > li a.btn-tab1 {
+	background: url("../img/btn-tab1_off.png") no-repeat right 10px rgb(255, 255, 255); padding: 5px 0px 5px 20px; border: 1px solid rgb(170, 170, 170); border-image: none; width: 100%; text-align: left; color: rgb(85, 85, 85); font-weight: bold; display: block;
+}
+.main-tab > li.on a.btn-tab1 {
+	background: url("../img/btn-tab1_on.png") no-repeat right 10px rgb(36, 117, 208); border: 1px solid rgb(36, 117, 208); border-image: none; color: rgb(255, 255, 255); font-weight: bold;
+}
+.main-tab > li.on .main-pro-con {
+	left: 0px;
+}
+#innovative-technology .pro-con {
+	width: 1790px; height: 130px; overflow: hidden; position: relative;
+}
+#innovative-technology .pro-con li {
+	width: 140px; margin-right: 10px; float: left; position: relative;
+}
+#innovative-technology .pro-con2 {
+	width: 740px;
+}
+#innovative-technology .pro-con li a {
+	display: block;
+}
+#innovative-technology .pro-con li a img {
+	width: 100%; height: auto;
+}
+#innovative-technology a {
+	text-decoration: none;
+}
+.pro-con .h3_txt {
+	background: url("../img/bg_pro.png") left bottom; left: 0px; width: 100%; height: 35px; bottom: 0px; color: rgb(255, 255, 255); padding-top: 8px; font-size: 12px; display: block; position: absolute;
+}
+.pro-con .h3_txt span {
+	color: rgb(255, 255, 255); font-size: 11px; display: block;
+}
+.pro-con-txt {
+	background: url("../img/bg_pro.png") left top; left: 0px; top: 0px; width: 100%; height: 100%; color: rgb(255, 255, 255); display: none; position: absolute;
+}
+.pro-con-txt a span {
+	color: rgb(255, 255, 255); display: block;
+}
+.pro-con-txt .title1 {
+	padding: 10px 5px; letter-spacing: 3px; font-size: 16px; margin-top: 40px; border-top-color: rgb(178, 176, 179); border-bottom-color: rgb(178, 176, 179); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; display: inline-block;
+}
+.pro-con-txt .title2 {
+	font-size: 24px; font-weight: bold; margin-top: 15px;
+}
+.pro-con-txt .txt1 {
+	padding: 0px 14px;
+}
+.pro-con-txt .txt2 {
+	padding: 0px 14px;
+}
+.pro-con-txt .txt1 {
+	text-align: left; margin-top: 20px;
+}
+.pro-con-txt .txt2 {
+	text-align: left; color: rgb(181, 181, 181); font-size: 11px; margin-top: 10px;
+}
+.scroll_wrap {
+	left: 0px; width: 100%; position: absolute;
+}
+.jspContainer {
+	width: 100%; overflow: hidden; position: relative;
+}
+.jspPane {
+	width: 100%; position: absolute;
+}
+.jspHorizontalBar {
+	left: 0px; width: 100%; height: 13px; bottom: 0px; position: absolute;
+}
+.jspCap {
+	display: none;
+}
+.jspHorizontalBar .jspCap {
+	float: left;
+}
+.jspTrack {
+	background: url("../img/bg_pro-scroll.png") repeat-x left top; width: 100% !important; position: relative;
+}
+.jspDrag {
+	background: url("../img/bg_pro-scroll_on.png") repeat-x top; left: 0px; top: 0px; position: relative; cursor: pointer;
+}
+.jspHorizontalBar .jspTrack {
+	height: 100%; float: left;
+}
+.jspHorizontalBar .jspDrag {
+	height: 100%; float: left;
+}
+.jspArrow {
+	background: rgb(80, 80, 109); margin: 0px; padding: 0px; text-indent: -20000px; display: block; cursor: pointer;
+}
+.jspArrow.jspDisabled {
+	background: rgb(128, 128, 141); cursor: default;
+}
+.jspVerticalBar .jspArrow {
+	height: 16px;
+}
+.jspHorizontalBar .jspArrow {
+	width: 13px; height: 100%; float: left;
+}
+.jspVerticalBar .jspArrow:focus {
+	
+}
+.height_px#creating-shared {
+	height: 460px !important;
+}
+#creating-shared {
+	background: url("../img/bg_msection3.jpg") no-repeat top / cover rgb(217, 234, 247); padding: 25px 0px 20px; width: 100%; height: 460px; text-align: left; position: relative;
+}
+.creating-shared-con {
+	width: 100%; position: relative;
+}
+#creating-shared .m-tit-txt {
+	padding-right: 14px; padding-left: 14px;
+}
+#slides3 {
+	padding: 0px 14px; height: 190px; overflow: hidden;
+}
+#slides3 > div {
+	height: 177px; text-align: left;
+}
+#slides3 .slidesjs-slide {
+	background: rgb(255, 255, 255);
+}
+#slides3 > div img {
+	padding: 10px; width: 110px; float: left;
+}
+#slides3 > div dl {
+	padding: 10px; margin-top: 2px; margin-left: 110px;
+}
+#slides3 > div dt {
+	height: 18px; line-height: 1.3; overflow: hidden; font-size: 14px; font-weight: bold; white-space: nowrap; -ms-word-break: break-all; -ms-text-overflow: ellipsis;
+}
+#slides3 > div dd {
+	height: 83px; line-height: 1.4; overflow: hidden; font-size: 12px; margin-top: 10px; -ms-word-break: break-all; -ms-text-overflow: ellipsis;
+}
+#slides3 > div dd a {
+	height: 83px; display: block;
+}
+#slides3 > div dd.date {
+	height: auto; color: rgb(85, 85, 85); font-size: 12px; margin-top: 20px;
+}
+#slides3 .slidesjs-pagination-item a {
+	background-color: rgb(135, 135, 135);
+}
+#slides3 .slidesjs-pagination-item a.active {
+	background-color: rgb(48, 115, 191);
+}
+#slides3 .slidesjs-pagination {
+	right: 24px; bottom: 15px;
+}
+#slides3 .slidesjs-navigation {
+	top: 40%; width: 20px; height: 40px;
+}
+#slides3 .slidesjs-previous {
+	left: 0px;
+}
+#slides3 .slidesjs-next {
+	right: 0px;
+}
+.creating-shared-bn {
+	width: 100%; padding-right: 14px; padding-left: 14px; margin-top: 10px; position: relative;
+}
+.creating-shared-bn li {
+	width: 49%; height: 62px; float: left; position: relative;
+}
+.creating-shared-bn li.line_r {
+	border-right-color: rgb(170, 193, 220); border-right-width: 1px; border-right-style: solid;
+}
+.creating-shared-bn li .pl-10 {
+	padding-left: 10px;
+}
+.creating-shared-bn li a {
+	text-align: left; display: block;
+}
+.creating-shared-bn li a > img {
+	width: 53px; margin-top: 7px; float: left;
+}
+.creating-shared-bn li a span {
+	line-height: 1.4;
+}
+.creating-shared-bn li a .title {
+	padding: 20px 0px 0px 63px; line-height: 1.1; font-size: 13px; font-weight: bold; display: block;
+}
+.creating-shared-bn li a .title2 {
+	color: rgb(34, 34, 34); line-height: 1.1; padding-top: 10px; font-size: 13px; font-weight: bold;
+}
+.creating-shared-bn li a .title span {
+	display: none;
+}
+.creating-shared-bn li a .title2 .ptxt {
+	color: rgb(34, 34, 34); font-size: 13px; font-weight: bold; display: block;
+}
+.creating-shared-bn li a .btn-download {
+	background: url("../img/icon_download_on.png") no-repeat 50px 4px rgb(125, 154, 207); padding: 3px 0px 0px 5px; left: 70px; width: 69px; height: 20px; text-align: left; bottom: 0px; color: rgb(255, 255, 255); font-size: 11px; display: block; position: absolute;
+}
+.main-bn {
+	background: rgb(237, 237, 237); height: auto; position: relative;
+}
+.main-bn ul {
+	overflow: hidden; position: relative;
+}
+.main-bn ul li {
+	background: rgb(237, 237, 237); padding: 15px 0px 22px; width: 25%; text-align: center; float: left; position: relative;
+}
+.main-bn ul li a {
+	display: block;
+}
+.main-bn ul li a > img {
+	display: none;
+}
+.main-bn ul li a span {
+	display: block;
+}
+.main-bn ul li .title {
+	margin-top: 8px;
+}
+.main-bn ul li .title span {
+	padding: 0px 3px; color: rgb(85, 85, 85); line-height: 1.2; font-size: 12px; margin-top: 10px;
+}
+.main-bn ul li .title span .m-txt {
+	letter-spacing: -1px;
+}
+.main-bn ul li .title img {
+	width: auto; height: 27px;
+}
+.main-bn ul li .txt {
+	display: none;
+}
+.main-bn ul li .more {
+	display: none;
+}
+@media all and (max-width:435px)
+{
+#slides .slidesjs-pagination {
+	bottom: 161px;
+}
+#slides .slidesjs-play {
+	bottom: 154px;
+}
+#slides .slidesjs-stop {
+	bottom: 154px;
+}
+#slides .slidesjs-previous {
+	bottom: 154px;
+}
+#slides .slidesjs-next {
+	bottom: 154px;
+}
+#slides .slidesjs-slide .txt1 {
+	letter-spacing: -1px; font-weight: bold;
+}
+#slides .slidesjs-slide .txt2 {
+	line-height: 1.3;
+}
+.posco-great div p {
+	font-weight: bold;
+}
+.posco-great div p span {
+	font-weight: bold;
+}
+#posco-live {
+	height: 490px;
+}
+.height_px#posco-live {
+	height: 490px !important;
+}
+#slides2-1 .slidesjs-previous {
+	top: 92%;
+}
+#slides2-1 .slidesjs-next {
+	top: 92%;
+}
+.m-tit {
+	font-weight: bold;
+}
+}
+@media all and (max-width:480px) and (min-width:479px)
+{
+#slides .slidesjs-slide {
+	height: 800px;
+}
+}
+@media all and (max-width:549px) and (min-width:435px)
+{
+#slides .slidesjs-slide .txt1 {
+	letter-spacing: -1px; font-size: 33px;
+}
+#slides .slidesjs-slide .txt2 {
+	line-height: 1.3; font-size: 16px; margin-top: 10px;
+}
+#slides .slidesjs-slide .btn-view {
+	width: 120px;
+}
+.main_visual {
+	min-height: 600px;
+}
+#slides div img {
+	min-height: 600px;
+}
+#slides .slidesjs-container {
+	min-height: 600px;
+}
+#slides .visual1 .moblie {
+	min-height: 600px;
+}
+#slides .visual2 .moblie {
+	min-height: 600px;
+}
+#slides .visual3 .moblie {
+	min-height: 600px;
+}
+#slides .visual4 .moblie {
+	min-height: 600px;
+}
+#slides .slidesjs-pagination {
+	bottom: 161px;
+}
+#slides .slidesjs-play {
+	bottom: 154px;
+}
+#slides .slidesjs-stop {
+	bottom: 154px;
+}
+#slides .slidesjs-previous {
+	bottom: 154px;
+}
+#slides .slidesjs-next {
+	bottom: 154px;
+}
+.posco-great {
+	height: 150px;
+}
+.posco-great-bn a img {
+	width: 90px;
+}
+.posco-great-bn a span {
+	font-size: 12px;
+}
+.posco-great-bn a.posible > span {
+	padding-left: 15px;
+}
+.posco-great-bn .history_txt {
+	padding-left: 5px;
+}
+.posco-great-bn .vision_txt {
+	padding-right: 10px;
+}
+#posco-live {
+	height: 460px;
+}
+#posco-live .con1 {
+	height: 320px;
+}
+#posco-live .con img {
+	
+}
+}
+@media all and (max-width:810px) and (min-width:550px)
+{
+#slides .slidesjs-slide .txt_area {
+	letter-spacing: -1px;
+}
+#slides .slidesjs-slide .txt1 {
+	font-size: 38px;
+}
+#slides .slidesjs-slide .txt2 {
+	font-size: 18px;
+}
+#slides .slidesjs-slide .btn-view {
+	width: 147px; height: 35px; padding-top: 6px; font-size: 13px; margin-top: 30px;
+}
+.slidesjs-pagination-item a {
+	width: 35px;
+}
+.slidesjs-pagination-item a.active {
+	width: 35px;
+}
+.main_visual {
+	min-height: 700px;
+}
+#slides div img {
+	min-height: 700px;
+}
+#slides .slidesjs-container {
+	min-height: 700px;
+}
+#slides .visual1 .moblie {
+	min-height: 700px;
+}
+#slides .visual2 .moblie {
+	min-height: 700px;
+}
+#slides .visual3 .moblie {
+	min-height: 700px;
+}
+#slides .visual4 .moblie {
+	min-height: 700px;
+}
+.posco-great {
+	height: 170px;
+}
+.posco-great-bn a img {
+	width: 90px;
+}
+.posco-great-bn a span {
+	font-size: 12px;
+}
+.posco-great-bn .history_txt {
+	padding-left: 5px;
+}
+.posco-great-bn .vision_txt {
+	padding-right: 10px;
+}
+.posco-great-bn a.posible > span {
+	padding-left: 15px;
+}
+#posco-live {
+	height: 450px;
+}
+#posco-live .con1 {
+	height: 310px;
+}
+#posco-live .con img {
+	
+}
+}
+@media all and (max-width:979px) and (min-width:811px)
+{
+#slides .m_area {
+	display: none;
+}
+#slides .web_area {
+	display: block;
+}
+#slides .slidesjs-slide .txt_area {
+	letter-spacing: -1px;
+}
+#slides .slidesjs-slide .txt1 {
+	font-size: 38px;
+}
+#slides .slidesjs-slide .txt2 {
+	font-size: 18px;
+}
+#slides .slidesjs-slide .btn-view {
+	width: 147px; height: 35px; padding-top: 6px; font-size: 13px; margin-top: 30px;
+}
+.slidesjs-pagination-item a {
+	width: 35px;
+}
+.slidesjs-pagination-item a.active {
+	width: 35px;
+}
+.main_visual {
+	min-height: 700px;
+}
+#slides div img {
+	min-height: 700px;
+}
+#slides .slidesjs-container {
+	min-height: 700px;
+}
+#slides .visual1 .moblie {
+	min-height: 700px;
+}
+#slides .visual2 .moblie {
+	min-height: 700px;
+}
+#slides .visual3 .moblie {
+	min-height: 700px;
+}
+#slides .visual4 .moblie {
+	min-height: 700px;
+}
+.posco-great {
+	height: 170px;
+}
+.posco-great-bn a img {
+	width: 110px;
+}
+.posco-great-bn .history_txt {
+	padding-left: 12px;
+}
+.posco-great-bn a.posible > span {
+	padding-left: 25px;
+}
+.posco-great-bn .vision_txt {
+	padding-right: 17px;
+}
+#posco-live {
+	height: 460px;
+}
+#posco-live .con1 {
+	height: 320px;
+}
+#posco-live .con img {
+	
+}
+}
+@media all and (min-width:980px)
+{
+#slides3 {
+	width: 480px;
+}
+.bg_png#header {
+	background: url("../img/gnb_transparent.png") left top;
+}
+.header_topCon {
+	display: block;
+}
+.main_top {
+	left: 50%; bottom: 205px; margin-left: 500px;
+}
+#main-content {
+	
+}
+#menu {
+	background: url("../img/menu_bg.png") no-repeat left top; padding: 14px 0px 0px 13px; top: 50%; width: 40px; height: 149px; right: 0px; margin-top: -74px; display: block; position: fixed; z-index: 100;
+}
+#menu li {
+	height: 14px; margin-bottom: 4px;
+}
+#menu li a {
+	background: url("../img/menu_off.png") no-repeat left top; width: 14px; height: 14px; text-indent: -9999px; overflow: hidden; margin-bottom: 5px; display: block;
+}
+#menu li.active {
+	height: 38px;
+}
+#menu li.active a {
+	height: 38px; background-image: url("../img/menu_on.png");
+}
+.mouse {
+	width: 30px; height: 66px; right: -30px; bottom: -74px; position: absolute;
+}
+.main_visual {
+	min-height: 331px;
+}
+#slides div img {
+	min-height: 331px;
+}
+#slides .slidesjs-container {
+	min-height: 331px;
+}
+#slides div img {
+	width: 100%;
+}
+#slides .slidesjs-slide .txt_area {
+	left: 50%; top: 150px; margin-left: -490px;
+}
+#slides .visual2.slidesjs-slide .txt_area {
+	opacity: 0;
+}
+#slides .visual3.slidesjs-slide .txt_area {
+	opacity: 0;
+}
+#slides .slidesjs-slide .txt1 {
+	font-size: 43px;
+}
+#slides .slidesjs-slide .txt2 {
+	font-size: 20px;
+}
+#slides .slidesjs-slide .btn-view {
+	width: 147px; height: 35px; padding-top: 6px; font-size: 14px; text-decoration: none; margin-top: 20px;
+}
+#slides .visual4 .btn-view {
+	
+}
+#slides .slidesjs-pagination {
+	left: 50%; bottom: 0px; padding-bottom: 160px; margin-left: -490px; display: none;
+}
+#slides .slidesjs-slide {
+	height: 100%;
+}
+#slides .slidesjs-slide .moblie {
+	display: none;
+}
+#slides .visual1 .web {
+	background: url("../img/visual1.jpg") no-repeat center 100px / cover; height: 100%; display: block;
+}
+#slides .visual2 .web {
+	background: url("../img/visual2.jpg") no-repeat center 100px / cover; height: 100%; display: block;
+}
+#slides .visual3 .web {
+	background: url("../img/visual3.jpg") no-repeat bottom / cover; height: 100%; display: block;
+}
+#slides .visual4 .web {
+	background: url("../img/visual4.jpg") no-repeat center 100px / cover; height: 100%; display: block;
+}
+#slides .visual6 .web {
+	background: url("../img/visual6.jpg") no-repeat center 100px / cover; height: 100%; display: block;
+}
+.slidesjs-pagination-item a {
+	width: 35px; height: 7px;
+}
+.slidesjs-pagination-item a.active {
+	width: 35px;
+}
+.slidesjs-navigation {
+	display: inline-block; position: absolute; z-index: 30;
+}
+#slides .slidesjs-play {
+	left: 50%; width: 40px; height: 40px; bottom: 158px; text-indent: -9999px; overflow: hidden; margin-left: -440px; display: block; position: absolute;
+}
+#slides .slidesjs-stop {
+	left: 50%; width: 40px; height: 40px; bottom: 158px; text-indent: -9999px; overflow: hidden; margin-left: -440px; display: block; position: absolute;
+}
+#slides .slidesjs-previous {
+	left: 50%; width: 40px; height: 40px; bottom: 158px; margin-left: -490px;
+}
+#slides .slidesjs-next {
+	left: 50%; width: 40px; height: 40px; bottom: 158px; margin-left: -490px;
+}
+#slides .slidesjs-next {
+	margin-left: -390px;
+}
+#slides .slidesjs-play {
+	background: url("../img/btn_play.png") no-repeat left top;
+}
+#slides .slidesjs-stop {
+	background: url("../img/btn_stop.png") no-repeat left top;
+}
+.posco-great {
+	background: url("../img/bg_black.png") left bottom; padding: 0px; left: 0px; width: 100%; height: 110px; text-align: left; bottom: 0px; position: absolute; z-index: 10;
+}
+.posco-great > div {
+	margin: 0px auto; width: 980px;
+}
+.posco-great div p {
+	float: left; display: inline-block;
+}
+.posco-great img {
+	width: auto;
+}
+.posco-great-bn2 {
+	display: inline-block;
+}
+.posco-great-bn2 a {
+	text-align: center; color: rgb(255, 255, 255); text-decoration: none; float: left; display: block; position: relative;
+}
+.posco-great-bn2 a img {
+	width: auto; float: left;
+}
+.posco-great-bn2 a span {
+	text-align: center; color: rgb(255, 255, 255); clear: both; display: block;
+}
+.posco-great-bn2 .con_txt {
+	color: rgb(166, 171, 175); font-size: 11px; margin-top: 4px; display: none;
+}
+.posco-great-bn2 .vision_area span {
+	left: 25px; position: relative;
+}
+.m-tit {
+	line-height: 1.4; letter-spacing: -1px; font-size: 40px; margin-top: 65px;
+}
+.m-tit span {
+	line-height: 1.4; letter-spacing: -1px; font-size: 40px; margin-top: 65px;
+}
+.m-tit-txt {
+	line-height: 1.4; padding-bottom: 20px; font-size: 16px; margin-bottom: 50px;
+}
+#posco-live {
+	background: url("../img/bg_section1.jpg") no-repeat top / cover rgb(223, 230, 237); padding: 55px 0px 60px; width: 100%; height: auto; text-align: center; position: relative; max-height: none;
+}
+.posco-live img {
+	width: auto;
+}
+#posco-live .m-tit-txt {
+	background: url("../img/h2-line1.gif") no-repeat bottom; margin-bottom: 22px;
+}
+.slides2 {
+	margin: 0px auto; width: 980px; text-align: left;
+}
+#posco-live .con img {
+	width: 100%; height: auto;
+}
+#posco-live .con {
+	padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; height: 370px; margin-right: 20px; float: left; position: relative; background-color: rgb(255, 255, 255);
+}
+#posco-live .con1 {
+	width: 480px;
+}
+#posco-live .con2 {
+	width: 230px;
+}
+#posco-live dl {
+	margin: 15px 5px 0px;
+}
+#posco-live dt {
+	line-height: 1.3; font-size: 15px; font-weight: bold;
+}
+#posco-live dd {
+	margin-top: 13px;
+}
+#posco-live dd.date {
+	left: 18px; bottom: 15px; color: rgb(85, 85, 85); font-size: 12px; position: absolute;
+}
+#posco-live dd.date span {
+	color: rgb(33, 116, 207);
+}
+#innovative-technology {
+	background: url("../img/bg_section2.jpg") no-repeat bottom / cover rgb(252, 252, 252); padding: 55px 0px 70px; width: 100%; text-align: center; position: relative;
+}
+#innovative-technology .m-tit-txt {
+	background: url("../img/h2-line2.gif") no-repeat bottom;
+}
+.main-tab {
+	margin: 0px auto; width: 980px; height: 348px; position: relative;
+}
+.main-tab > li {
+	width: auto; float: left;
+}
+.main-tab > li a.btn-tab1 {
+	padding: 5px 0px 5px 20px; width: 150px; text-align: left; margin-right: 5px; display: inline-block;
+}
+.main-tab > li a.btn-tab1:hover {
+	background: url("../img/btn-tab1_over.png") no-repeat right 10px rgb(36, 117, 208); border: 1px solid rgb(36, 117, 208); border-image: none; color: rgb(255, 255, 255);
+}
+#innovative-technology .pro-con {
+	width: 3976px; height: 328px; position: relative;
+}
+#innovative-technology .pro-con li {
+	width: 313px; height: 290px; margin-right: 20px; float: left; position: relative;
+}
+#innovative-technology .pro-con2 {
+	width: 1649px;
+}
+#innovative-technology .pro-con li a {
+	display: block;
+}
+#innovative-technology .pro-con li a img {
+	width: 313px; height: 290px;
+}
+#innovative-technology a {
+	text-decoration: none;
+}
+.pro-con .h3_txt {
+	background: url("../img/bg_pro.png") left bottom; left: 0px; width: 100%; height: 60px; bottom: 0px; color: rgb(255, 255, 255); line-height: 1.3; padding-top: 17px; font-size: 20px; display: block; position: absolute;
+}
+.pro-con .h3_txt span {
+	color: rgb(255, 255, 255); font-size: 15px; display: block;
+}
+.pro-con-txt {
+	background: url("../img/bg_pro.png") left top; left: 0px; top: 0px; width: 100%; height: 100%; color: rgb(255, 255, 255); display: none; position: absolute;
+}
+.pro-con-txt a span {
+	color: rgb(255, 255, 255); display: block;
+}
+.pro-con-txt .title1 {
+	padding: 10px 5px; letter-spacing: 3px; font-size: 16px; margin-top: 60px; border-top-color: rgb(178, 176, 179); border-bottom-color: rgb(178, 176, 179); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; display: inline-block;
+}
+.pro-con-txt .txt1 {
+	padding: 0px 14px; text-align: left; font-size: 14px; margin-top: 30px;
+}
+.scroll_wrap {
+	top: 5px;
+}
+.jspHorizontalBar {
+	bottom: 0px;
+}
+.jspContainer {
+	width: 980px !important; height: 328px !important;
+}
+.jspPane {
+	width: auto;
+}
+.jspTrack {
+	width: auto;
+}
+.jspDrag {
+	background: url("../img/btn_scrollBar.gif") no-repeat top rgb(80, 80, 80);
+}
+.jspDrag:hover {
+	background: url("../img/btn_scrollBar_on.gif") no-repeat top rgb(36, 117, 208);
+}
+.jspDrag:focus {
+	background: url("../img/btn_scrollBar_on.gif") no-repeat top rgb(36, 117, 208);
+}
+.jspDrag:active {
+	background: url("../img/btn_scrollBar_on.gif") no-repeat top rgb(36, 117, 208);
+}
+.scroll-pane {
+	width: 980px !important; height: 328px; -ms-overflow-x: auto; -ms-overflow-y: hidden;
+}
+.horizontal-only {
+	height: auto; max-height: 328px;
+}
+.main-pro-con {
+	left: -9999px; top: 40px; height: 328px; position: absolute;
+}
+#creating-shared {
+	background: url("../img/bg_section3.jpg") no-repeat top / cover rgb(217, 234, 247); padding: 55px 0px; height: auto; text-align: left;
+}
+#creating-shared .m-tit-txt {
+	background: url("../img/h2-line3.gif") no-repeat bottom;
+}
+.creating-shared-con {
+	margin: 0px auto; width: 980px; position: relative;
+}
+#slides3 {
+	padding: 0px; width: 480px; height: 380px; overflow: hidden;
+}
+#slides3 > div {
+	height: 354px; text-align: left;
+}
+#slides3 .slidesjs-slide {
+	background: rgb(255, 255, 255);
+}
+#slides3 > div img {
+	padding: 10px; width: 220px; float: left;
+}
+#slides3 > div dl {
+	padding: 10px 20px 10px 10px; margin-top: 25px; margin-left: 240px;
+}
+#slides3 > div dt {
+	height: 48px; line-height: 1.3; font-size: 18px; font-weight: bold;
+}
+#slides3 > div dd {
+	height: 165px; font-size: 13px; margin-top: 20px;
+}
+#slides3 > div dd.date {
+	color: rgb(85, 85, 85); font-size: 12px;
+}
+#slides3 .slidesjs-pagination {
+	left: 50%; bottom: 0px; margin-left: -57px; display: none;
+}
+#slides3 .slidesjs-navigation {
+	top: auto; width: 20px; height: 20px; bottom: 40px;
+}
+#slides3 .slidesjs-previous {
+	left: auto; right: 50px;
+}
+#slides3 .slidesjs-next {
+	right: 20px;
+}
+.creating-shared-bn {
+	padding: 0px; top: 0px; width: 480px; right: 0px; margin-top: 0px; position: absolute;
+}
+.creating-shared-bn li {
+	height: 176px;
+}
+.creating-shared-bn li.line_b {
+	border-bottom-color: rgb(170, 193, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.creating-shared-bn li .pl-10 {
+	padding-left: 0px;
+}
+.creating-shared-bn li a {
+	height: 100%; text-align: center;
+}
+.creating-shared-bn li a > img {
+	width: 71px; margin-top: 12px; float: none;
+}
+.creating-shared-bn li a span {
+	display: block;
+}
+.creating-shared-bn li a .title {
+	margin: 12px 0px 10px; padding: 0px; line-height: 1.3; font-size: 18px; font-weight: bold;
+}
+.creating-shared-bn li a .title span {
+	color: rgb(121, 121, 121); display: inline;
+}
+.creating-shared-bn li a .title2 .ptxt {
+	color: rgb(34, 34, 34); font-size: 18px; font-weight: bold; display: inline;
+}
+.creating-shared-bn li a:hover {
+	background: url("../img/creating-shared-bg.png") left top; text-decoration: none;
+}
+.creating-shared-bn li a:active {
+	background: url("../img/creating-shared-bg.png") left top; text-decoration: none;
+}
+.creating-shared-bn li a:focus {
+	background: url("../img/creating-shared-bg.png") left top; text-decoration: none;
+}
+.creating-shared-bn li a .btn-download {
+	background: url("../img/icon_download.png") no-repeat 73px 4px; margin: 0px auto; padding: 3px 0px 0px 18px; border: 1px solid rgb(121, 135, 146); border-image: none; left: auto; width: 99px; height: 25px; color: rgb(34, 34, 34); font-size: 12px; font-weight: bold; position: relative;
+}
+.creating-shared-bn li a:hover .btn-download {
+	background: url("../img/icon_download_on.png") no-repeat 73px 4px rgb(36, 117, 208); border: 1px solid rgb(36, 117, 208); border-image: none; color: rgb(255, 255, 255);
+}
+.creating-shared-bn li a:active .btn-download {
+	background: url("../img/icon_download_on.png") no-repeat 73px 4px rgb(36, 117, 208); border: 1px solid rgb(36, 117, 208); border-image: none; color: rgb(255, 255, 255);
+}
+.creating-shared-bn li a:focus .btn-download {
+	background: url("../img/icon_download_on.png") no-repeat 73px 4px rgb(36, 117, 208); border: 1px solid rgb(36, 117, 208); border-image: none; color: rgb(255, 255, 255);
+}
+.main-bn {
+	background: url("../img/bg_section3.jpg") no-repeat bottom / cover; position: relative;
+}
+.main-bn ul li a > img {
+	width: 223px; height: 159px; display: block;
+}
+.main-bn ul {
+	margin: -240px 0px 0px -490px; left: 50%; top: 50%; width: 990px; position: absolute;
+}
+.main-bn ul li {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 245px; height: 330px; text-align: left; position: relative;
+}
+.main-bn ul li a {
+	display: block;
+}
+.main-bn ul li a > img {
+	display: block;
+}
+.main-bn ul li a > span {
+	display: block;
+}
+.main-bn ul li .title {
+	margin-top: 20px;
+}
+.main-bn ul li .title span {
+	padding: 0px; color: rgb(34, 34, 34); line-height: 1.3; font-size: 16px; font-weight: bold; display: inline;
+}
+.main-bn ul li .title > img {
+	display: none;
+}
+.main-bn ul li .txt {
+	padding: 15px 0px; width: 220px; display: block;
+}
+.main-bn ul li .more {
+	background: url("../img/icon_arrow_more.gif") no-repeat right 7px; left: 10px; bottom: 10px; color: rgb(36, 117, 208); padding-right: 11px; font-size: 12px; display: block; position: absolute;
+}
+.footer.fixed {
+	bottom: 0px; position: fixed;
+}
+}
+@media all and (max-width:1300px) and (min-width:1023px)
+{
+#slides .slidesjs-slide .btn-view {
+	top: 137px;
+}
+}
+@media all and (min-width:1301px)
+{
+#slides .slidesjs-slide .txt1 {
+	font-size: 43px;
+}
+#slides .slidesjs-slide .txt2 {
+	font-size: 20px;
+}
+#slides .slidesjs-slide .btn-view {
+	
+}
+}

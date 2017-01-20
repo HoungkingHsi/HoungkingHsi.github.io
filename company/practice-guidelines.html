@@ -1,0 +1,1831 @@
+﻿<!DOCTYPE HTML>
+
+<META http-equiv="X-UA-Compatible" content="IE=Edge">
+<TITLE>Business Ethics | Houngking Hsi</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META name="keywords" content="Houngking Hsi, houngking hsi, indeex , HTML5 , HTML , CSS , CSS3 , Javascript , Ecmascript">
+
+<META name="viewport" content="width=device-width; initial-scale=1.0">
+<SCRIPT src="lib/jquery-1.9.1.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="lib/jquery.easing.1.3.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="lib/common.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="js/common_eng_new.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="lib/jquery-mousewheel.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="lib/jquery.touchslider.js" type="text/javascript"></SCRIPT>
+<SCRIPT src="lib/common_eng.js" type="text/javascript"></SCRIPT>
+<LINK href="css/layout.css" rel="stylesheet" type="text/css">
+<LINK href="css/company.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="lib/respond.min.js"></script>
+
+<SCRIPT type="text/javascript">
+  function langugeSite() {
+    var obj = document.getElementById("langugeSel").options;
+    var val = obj[obj.selectedIndex].value;
+    if (val == "") {
+      alert("!");
+      return false;
+    } else {
+      var popWin = window.open('about:blank');
+      popWin.location.href = val;
+    }
+  }
+
+  function sendSns(social, url, title) {
+    var _url = 'http://www.houngking.cc' + encodeURIComponent(url);
+    var _txt = encodeURIComponent(title);
+    if (social == 'facebook') {
+      window.open('http://www.facebook.com/sharer/sharer.php?u=' + _url, social + 'Share',
+              'width=600, height=300, top=150, left=200, toolbars=no');
+    } else if (social == 'twitter') {
+      window.open('http://twitter.com/intent/tweet?text=' + _txt + '&url=' + _url, social + 'Share',
+              'width=600, height=300, top=150, left=200, toolbars=no');
+    } else if (social == 'googleplus') {
+      window.open('https://plus.google.com/share?url=' + _url, social + 'Share',
+              'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+    } else if (social == 'kakaostory') {
+      window.open('https://story.kakao.com/share?url=' + _url, social + 'Share',
+              'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
+    }
+  }
+</SCRIPT>
+
+<SCRIPT type="text/javascript">
+  onload = function() {
+    var theframes = document.getElementsByTagName('iframe');
+    for (var i = 0; i < theframes.length; i++) {
+      theframes[i].setAttribute("allowTransparency", "true");
+    }
+  }
+  $(function() {
+    $(window).scroll(function() {
+      scroll_event_handler();
+    });
+    $('.sub_top').click(function() {
+      $("html,body").animate({
+        scrollTop: 0
+      });
+    });
+
+    function scroll_event_handler() {
+      $("#contents").each(function() {
+        var pos_y = $(this).offset().top - $(window).scrollTop();
+      });
+      fixmenu();
+    }
+
+    function fixmenu() {
+      var $doc = $(document);
+      var mainvisual = $('#content_area').offset().top - $(window).scrollTop();
+      if (mainvisual <= 50) {
+        $('.sub_top').fadeIn();
+      } else {
+        $('.sub_top').fadeOut();
+      }
+    }
+  });
+</SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 11.00.10240.16384">
+</HEAD>
+
+<BODY>
+<DL id="skip-go">
+  <DT>Skip to navigation</DT>
+  <DD>
+    <A href="practice-guidelines.html#content_area">Skip to Contents</A>
+  </DD>
+</DL>
+<DIV class="wrap" id="wrap">
+  <DIV id="header">
+    <div class="header_top">
+      <div class="header_topCon">
+        <div class="sns_area">
+          <a href="http://blog.houngking.cc/" target="_blank">
+            <img alt="blog" src="img/sns_blog_off.png">
+          </a>
+          <a href="https://www.facebook.com/HoungkingHsi" target="_blank">
+            <img alt="facebook" src="img/sns_facebook_off.png">
+          </a>
+          <a href="http://globalblog.houngking.cc/" target="_blank">
+            <img alt="global blog" src="img/sns_gBlog_off.png">
+          </a>
+          <a href="http://www.linkedin.com/imisslovelove" target="_blank">
+            <img alt="LinkedIn" src="img/sns_in_off.png">
+          </a>
+          <a href="http://www.youtube.com/imisslovelove" target="_blank"><img alt="youTube"
+                                                                              src="img/sns_youTube_off.png">
+          </a>
+          <a href="http://www.instagram.com/imisslovelove" target="_blank">
+            <img alt="Instagram" src="img/sns_instagram_off.png">
+          </a>
+          <a href="http://story.kakao.com/ch/imisslovelove" target="_blank">
+            <img alt="kakao stroy" src="img/sns_kakao_off.png">
+          </a>
+        </div>
+        <div class="utilLink">
+          <a href="http://www.houngking.cc">Contact Us</a>
+          <a href="http://www.houngking.cc">Sitemap</a>
+          <div class="global_site">
+            <DL>
+              <DT>
+                <a title="Open International Sites" class="open" href="javascript:;">Language</a>
+              </DT>
+              <DD>
+                <ul>
+                  <li><a href="http://www.houngking.cc/" target="_blank">KOREAN</a></li>
+                  <li><a href="http://www.houngking.cc/" target="_blank">CHINESE</a></li>
+                  <li><a href="http://www.houngking.cc/" target="_blank">JAPANESE</a></li>
+                </ul>
+                <a title="Close International Sites" class="close" href="javascript:;">Language</a>
+              </DD>
+            </DL>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gnb_area">
+      <H1 class="logo">
+        <a href="http://www.houngking.cc/html5-company">
+          <img alt="houngking" src="img/h1_posco.png">
+        </a>
+      </H1>
+      <ul class="gnb" id="gnb">
+        <li>
+          <a class=" txt1" href="company.html">Company</a>
+          <ul class="gnb_sub gnb_sub1">
+            <li>
+              <a href="company.html">Corporate Overview</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="company.html">Corporate Overview</a>
+                  </li>
+                  <li>
+                    <a href="company.html">Vision of houngking</a>
+                  </li>
+                  <li>
+                    <a href="company.html">History of houngking</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a class=" txt1" href="company.html">Brand</a>
+              <div class="sub-menu">
+                <ul>
+                  <li><a class=" txt1" href="company.html">Brand Story</a></li>
+                  <li><a class=" txt1" href="company.html">CI</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class=" txt1" href="company.html">CEO</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a class=" txt1" href="company.html">Greetings</a>
+                  </li>
+                  <li>
+                    <a href="company.html">CEO's Message</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="company.html">houngking
+              Affiliates</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="company.html">houngking
+                      Affiliates</a></li>
+                  <li><a class=" txt1" href="company.html">Steel</a>
+                  </li>
+                  <li><a class=" txt1" href="company.html">E&amp;C</a>
+                  </li>
+                  <li><a class=" txt1" href="company.html">Trade</a>
+                  </li>
+                  <li><a class=" txt1" href="company.html">ICT</a>
+                  </li>
+                  <li><a class=" txt1" href="company.html">Energy</a>
+                  </li>
+                  <li>
+                    <a href="company.html">Material
+                      - Chemistry</a></li>
+                  <li><a class=" txt1" href="company.html">Support</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="company.html">houngking
+              Overseas</a>
+              <div class="sub-menu">
+                <ul>
+                  <li><a class=" txt1" href="company.html">Global</a>
+                  </li>
+                  <li><a class=" txt1" href="company.html">Asia</a>
+                  </li>
+                  <li><a class=" txt1" href="company.html">America</a>
+                  </li>
+                  <li><a class=" txt1" href="company.html">Europe&amp;Africa</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li><a href="business.html">Business
+          Ethics</a>
+          <ul class="gnb_sub gnb_sub10">
+            <li>
+              <a href="business.html">Code
+                of Ethics</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="business.html">CEO
+                      Message</a></li>
+                  <li>
+                    <a href="ethics-charter.html">Ethics
+                      Charter</a></li>
+                  <li>
+                    <a href="practice-guidelines.html">Practice
+                      Guidelines</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class=" txt1" href="business.html">Major
+              Activities</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="business.html">Operation
+                      of the Ethical Management System</a></li>
+                  <li>
+                    <a href="business.html">Education
+                      on Corporate Ethics</a></li>
+                  <li>
+                    <a href="business.html">Unethical
+                      Act Prevention System</a></li>
+                  <li>
+                    <a href="business.html">External
+                      Activities and Results</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li><a href="products.html">Products
+          / Technology</a>
+          <ul class="gnb_sub gnb_sub2">
+            <li>
+              <a href="products.html">Products
+                of houngking </a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="products.html">Hot
+                      Rolled Steel</a></li>
+                  <li><a class=" txt1" href="products.html">Steel
+                    Plate</a></li>
+                  <li><a class=" txt1" href="products.html">Wire
+                    Rod</a></li>
+                  <li>
+                    <a href="products.html">Cold
+                      Rolled Steel</a></li>
+                  <li>
+                    <a href="products.html">Galvanized
+                      Steel</a></li>
+                  <li>
+                    <a href="products.html">Electrical
+                      Galvanized Steel</a></li>
+                  <li><a class=" txt1" href="products.html">Electrical
+                    Steel</a></li>
+                  <li>
+                    <a href="products.html">Automotive
+                      materials</a></li>
+                  <li><a class=" txt1" href="products.html">Stainless
+                    Steel</a></li>
+                  <li>
+                    <a href="products.html">Titanium
+                      Product</a></li>
+                  <li>
+                    <a href="products.html">Magnesium
+                      Product</a></li>
+                  <li>
+                    <a href="products.html">Aluminum-plated
+                      products</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="products.html">houngking
+                Technology</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="products.html">FINEX
+                      Technology</a></li>
+                  <li><a class=" txt1" href="products.html">Strip
+                    Casting</a></li>
+                  <li>
+                    <a href="products.html">Endless
+                      Hot Rolling Technology</a></li>
+                  <li>
+                    <a href="products.html">Operation
+                      Technology</a></li>
+                  <li>
+                    <a href="products.html">CEM
+                      Technology</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="products.html">Production
+                Process</a></li>
+            <li>
+              <a href="products.html">Sales
+                information</a>
+              <div class="sub-menu">
+                <ul>
+                  <li><a class=" txt1" href="products.html">e-Sales</a>
+                  </li>
+                  <li><a class=" txt1" href="products.html">e-Procurement</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li><a href="investor.html">Investor
+          Relations</a>
+          <ul class="gnb_sub gnb_sub3">
+            <li><a class=" txt1" href="investor.html">IR
+              Activities</a></li>
+            <li>
+              <a href="investor.html">Stock
+                Information</a>
+              <div class="sub-menu">
+                <ul>
+                  <li><a class=" txt1" href="investor.html">Stock
+                    Price</a></li>
+                  <li>
+                    <a href="investor.html">Price
+                      Comparision</a></li>
+                  <li><a class=" txt1" href="investor.html">ADR</a>
+                  </li>
+                  <li>
+                    <a href="investor.html">houngking
+                      Stock Exchange</a></li>
+                  <li>
+                    <a href="investor.html">Economic
+                      Trend</a></li>
+                  <li>
+                    <a href="investor.html">Shareholders
+                      Demographics</a></li>
+                  <li><a class=" txt1" href="investor.html">Dividend</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="">Financial
+                Information</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="">Income
+                      Statement</a></li>
+                  <li><a class=" txt1" href="investor.html">Credit
+                    Rating</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class=" txt1" href="investor.html">IR
+              Archive</a>
+              <div class="sub-menu">
+                <ul>
+                  <li><a class=" txt1" href="investor.html">Audit
+                    Report</a></li>
+                  <li><a class=" txt1" href="investor.html">Form
+                    20-F</a></li>
+                  <li><a class=" txt1" href="investor.html">Annual
+                    Report</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li><a href="sustainability.html">Sustainability</a>
+          <ul class="gnb_sub gnb_sub4">
+            <li class=" txt2"><a href="sustainability.html">Sustainability
+              Management System</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="sustainability.html">Sustainability
+                      Management System</a></li>
+                  <li>
+                    <a href="sustainability.html">houngking
+                      Subsidiaries CSR Assessment</a></li>
+                  <li>
+                    <a href="sustainability.html">Risk
+                      Management</a></li>
+                  <li><a class=" txt1" href="sustainability.html">Stakeholder</a>
+                  </li>
+                  <li>
+                    <a href="sustainability.html">Relevant
+                      Institutes Activities</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="sustainability.html">Social
+                Responsibility </a></li>
+            <li class=" txt2"><a href="sustainability.html">Environmental
+              Management </a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="sustainability.html">Family's
+                      Environmental Management</a></li>
+                  <li>
+                    <a href="sustainability.html">Environmental
+                      Management</a></li>
+                  <li>
+                    <a href="sustainability.html">Climate
+                      change /Energy</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class=" txt1" href="sustainability.html">Customer</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="sustainability.html">Marketing
+                      strategy</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class=" txt1" href="sustainability.html">Employee</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="sustainability.html">Employee
+                      Health / Safety</a></li>
+                  <li>
+                    <a href="sustainability.html">Organizational
+                      Culture</a></li>
+                  <li>
+                    <a href="sustainability.html" target="_blank">HR system</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class=" txt1" href="sustainability.html">Report</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="sustainability.html">Sustainability
+                      Report</a></li>
+                  <li><a class=" txt1" href="sustainability.html">Carbon
+                    Report</a></li>
+                  <li>
+                    <a href="sustainability.html">Conflict
+                      Minerals Disclosure</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li><a class=" txt1" href="room.html">PR
+          Room</a>
+          <ul class="gnb_sub gnb_sub5">
+            <li><a class=" txt1" href="room.html">Newsroom</a>
+            </li>
+            <li><a class=" txt1" href="room.html">Newsletter</a>
+            </li>
+            <li><a class=" txt1" href="room.html">houngking
+              SNS</a></li>
+            <li><a class=" txt1" href="room.html">PR
+              Archives</a>
+              <div class="sub-menu">
+                <ul>
+                  <li>
+                    <a href="room.html">Digital
+                      Brochure</a></li>
+                  <li>
+                    <a href="room.html">TV
+                      Cormmercials</a></li>
+                  <li><a class=" txt1" href="room.html">Screen
+                    Saver</a></li>
+                  <li><a class=" txt1" href="room.html">PR
+                    Movies</a></li>
+                  <li>
+                    <a href="room.html">Printed
+                      Advertisement</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class=" txt1" href="room.html">Download</a>
+              <div class="sub-menu">
+                <ul>
+                  <li><a class=" txt1" href="room.html">Company</a>
+                  </li>
+                  <li>
+                    <a href="room.html">Products
+                      / Technology</a></li>
+                  <li>
+                    <a href="room.html">Investor
+                      Relations</a></li>
+                  <li><a class=" txt1" href="room.html">Sustainability</a>
+                  </li>
+                  <li><a class=" txt1" href="room.html">PR
+                    Room</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="web_area2">
+        <a class="btn_nav1 open" href="javascript:;"><img alt="Open all menu" src="img/btn_gnb.png"></a>
+        <div class="all_menu"><a class="btn-all_menu open" href="room.html">Open
+          submenu</a> <a class="btn-all_menu close" href="room.html">Close
+          submenu</a>
+          <div>
+            <ul class="cl">
+              <li><a class=" txt1" href="room.html">Company</a>
+                <ul class="menu_sub">
+                  <li>
+                    <a href="room.html">Corporate
+                      Overview</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="room.html">Corporate
+                            Overview</a></li>
+                        <li>
+                          <a href="room.html">Vision
+                            of houngking</a></li>
+                        <li>
+                          <a href="room.html">History
+                            of houngking</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class=" txt1" href="room.html">Brand</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li><a class=" txt1" href="room.html">Brand
+                          Story</a></li>
+                        <li><a class=" txt1" href="room.html">CI</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class=" txt1" href="room.html">CEO</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li><a class=" txt1" href="room.html">Greetings</a>
+                        </li>
+                        <li>
+                          <a href="room.html">CEO's
+                            Message</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="company.html">houngking
+                      Affiliates</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="company.html">houngking
+                            Affiliates</a></li>
+                        <li><a class=" txt1" href="company.html">Steel</a>
+                        </li>
+                        <li><a class=" txt1" href="company.html">E&amp;C</a>
+                        </li>
+                        <li><a class=" txt1" href="company.html">Trade</a>
+                        </li>
+                        <li><a class=" txt1" href="company.html">ICT</a>
+                        </li>
+                        <li><a class=" txt1" href="company.html">Energy</a>
+                        </li>
+                        <li>
+                          <a href="company.html">Material
+                            - Chemistry</a></li>
+                        <li><a class=" txt1" href="company.html">Support</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="company.html">houngking
+                      Overseas</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li><a class=" txt1" href="company.html">Global</a>
+                        </li>
+                        <li><a class=" txt1" href="company.html">Asia</a>
+                        </li>
+                        <li><a class=" txt1" href="company.html">America</a>
+                        </li>
+                        <li><a class=" txt1" href="company.html">Europe&amp;Africa</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="company.html">Business
+                  Ethics</a>
+                <ul class="menu_sub">
+                  <li>
+                    <a href="company.html">Code
+                      of Ethics</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="company.html">CEO
+                            Message</a></li>
+                        <li>
+                          <a href="company.html">Ethics
+                            Charter</a></li>
+                        <li>
+                          <a href="company.html">Practice
+                            Guidelines</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class=" txt1" href="company.html">Major
+                    Activities</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="company.html">Operation
+                            of the Ethical Management System</a></li>
+                        <li>
+                          <a href="company.html">Education
+                            on Corporate Ethics</a></li>
+                        <li>
+                          <a href="company.html">Unethical
+                            Act Prevention System</a></li>
+                        <li>
+                          <a href="company.html">External
+                            Activities and Results</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="products.html">Products
+                  / Technology</a>
+                <ul class="menu_sub">
+                  <li>
+                    <a href="products.html">Products
+                      of houngking </a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="products.html">Hot
+                            Rolled Steel</a></li>
+                        <li><a class=" txt1" href="products.html">Steel
+                          Plate</a></li>
+                        <li><a class=" txt1" href="products.html">Wire
+                          Rod</a></li>
+                        <li>
+                          <a href="products.html">Cold
+                            Rolled Steel</a></li>
+                        <li>
+                          <a href="products.html">Galvanized
+                            Steel</a></li>
+                        <li>
+                          <a href="products.html">Electrical
+                            Galvanized Steel</a></li>
+                        <li><a class=" txt1" href="products.html">Electrical
+                          Steel</a></li>
+                        <li>
+                          <a href="products.html">Automotive
+                            materials</a></li>
+                        <li><a class=" txt1" href="products.html">Stainless
+                          Steel</a></li>
+                        <li>
+                          <a href="products.html">Titanium
+                            Product</a></li>
+                        <li>
+                          <a href="products.html">Magnesium
+                            Product</a></li>
+                        <li>
+                          <a href="products.html">Aluminum-plated
+                            products</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="products.html">houngking
+                      Technology</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="products.html">FINEX
+                            Technology</a></li>
+                        <li><a class=" txt1" href="products.html">Strip
+                          Casting</a></li>
+                        <li>
+                          <a href="products.html">Endless
+                            Hot Rolling Technology</a></li>
+                        <li>
+                          <a href="products.html">Operation
+                            Technology</a></li>
+                        <li>
+                          <a href="products.html">CEM
+                            Technology</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="products.html">Production
+                      Process</a></li>
+                  <li>
+                    <a href="products.html">Sales
+                      information</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li><a class=" txt1" href="products.html">e-Sales</a>
+                        </li>
+                        <li><a class=" txt1" href="products.html">e-Procurement</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="investor.html">Investor
+                  Relations</a>
+                <ul class="menu_sub">
+                  <li><a class=" txt1" href="investor.html">IR
+                    Activities</a></li>
+                  <li>
+                    <a href="investor.html">Stock
+                      Information</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li><a class=" txt1" href="investor.html">Stock
+                          Price</a></li>
+                        <li>
+                          <a href="investor.html">Price
+                            Comparision</a></li>
+                        <li><a class=" txt1" href="investor.html">ADR</a>
+                        </li>
+                        <li>
+                          <a href="investor.html">houngking
+                            Stock Exchange</a></li>
+                        <li>
+                          <a href="investor.html">Economic
+                            Trend</a></li>
+                        <li>
+                          <a href="investor.html">Shareholders
+                            Demographics</a></li>
+                        <li><a class=" txt1" href="investor.html">Dividend</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="investor.html">Financial
+                      Information</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="investor.html">Income
+                            Statement</a></li>
+                        <li><a class=" txt1" href="investor.html">Credit
+                          Rating</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class=" txt1" href="investor.html">IR
+                    Archive</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li><a class=" txt1" href="investor.html">Audit
+                          Report</a></li>
+                        <li><a class=" txt1" href="investor.html">Form
+                          20-F</a></li>
+                        <li><a class=" txt1" href="investor.html">Annual
+                          Report</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="cl">
+              <li>
+                <a href="sustainability.html">Sustainability</a>
+                <ul class="menu_sub">
+                  <li class=" txt2"><a href="sustainability.html">Sustainability
+                    Management System</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="sustainability.html">Sustainability
+                            Management System</a></li>
+                        <li>
+                          <a href="sustainability.html">houngking
+                            Subsidiaries CSR Assessment</a></li>
+                        <li>
+                          <a href="sustainability.html">Risk
+                            Management</a></li>
+                        <li><a class=" txt1" href="sustainability.html">Stakeholder</a>
+                        </li>
+                        <li>
+                          <a href="sustainability.html">Relevant
+                            Institutes Activities</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="sustainability.html">Social
+                      Responsibility </a></li>
+                  <li class=" txt2"><a href="sustainability.html">Environmental
+                    Management </a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="sustainability.html">Family's
+                            Environmental Management</a></li>
+                        <li>
+                          <a href="sustainability.html">Environmental
+                            Management</a></li>
+                        <li>
+                          <a href="sustainability.html">Climate
+                            change /Energy</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class=" txt1" href="">Customer</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="sustainability.html">Marketing
+                            strategy</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class=" txt1" href="sustainability.html">Employee</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="sustainability.html">Employee
+                            Health / Safety</a></li>
+                        <li>
+                          <a href="sustainability.html">Organizational
+                            Culture</a></li>
+                        <li>
+                          <a href="sustainability.html" target="_blank">HR system</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class=" txt1" href="sustainability.html">Report</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="sustainability.html">Sustainability
+                            Report</a></li>
+                        <li><a class=" txt1" href="sustainability.html">Carbon
+                          Report</a></li>
+                        <li>
+                          <a href="sustainability.html">Conflict
+                            Minerals Disclosure</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li><a class=" txt1" href="room.html">PR
+                Room</a>
+                <ul class="menu_sub">
+                  <li><a class=" txt1" href="room.html">Newsroom</a>
+                  </li>
+                  <li><a class=" txt1" href="room.html">Newsletter</a>
+                  </li>
+                  <li><a class=" txt1" href="room.html">houngking
+                    SNS</a></li>
+                  <li><a class=" txt1" href="room.html">PR
+                    Archives</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li>
+                          <a href="room.html">Digital
+                            Brochure</a></li>
+                        <li>
+                          <a href="room.html">TV
+                            Cormmercials</a></li>
+                        <li><a class=" txt1" href="room.html">Screen
+                          Saver</a></li>
+                        <li><a class=" txt1" href="room.html">PR
+                          Movies</a></li>
+                        <li>
+                          <a href="room.html">Printed
+                            Advertisement</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class=" txt1" href="room.html">Download</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li><a class=" txt1" href="room.html">Company</a>
+                        </li>
+                        <li>
+                          <a href="room.html">Products
+                            / Technology</a></li>
+                        <li>
+                          <a href="room.html">Investor
+                            Relations</a></li>
+                        <li><a class=" txt1" href="room.html">Sustainability</a>
+                        </li>
+                        <li><a class=" txt1" href="room.html">PR
+                          Room</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="room.html">Contact
+                  Us</a>
+                <ul class="menu_sub">
+                  <li><a class=" txt1" href="room.html">Q&amp;A</a>
+                  </li>
+                  <li><a class=" txt1" href="room.html">Search</a>
+                  </li>
+                  <li><a class=" txt1" href="room.html">Location</a>
+                    <div class="menu_sub_con">
+                      <ul>
+                        <li><a class=" txt1" href="room.html">Head
+                          Office</a></li>
+                        <li><a class=" txt1" href="room.html">houngking
+                          Center</a></li>
+                        <li><a class=" txt1" href="room.html">Works</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class=" txt1" href="room.html">Sitemap</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a class="btn_nav1 close" href="javascript:;"><img alt="close" src="img/btn_close2.png"></a>
+      </div>
+      <a class="btn_nav2 open" href="javascript:;"><img alt="Open all menu" src="img/btn_gnb.png"></a>
+      <a class="btn_search search_open" href="javascript:;">
+        <img alt="Open search area" src="img/btn_search.png"></a>
+    </div>
+  </DIV>
+
+  <div class="search_area">
+    <FORM name="srchform1" id="srchform1" action="#" method="post">
+      <INPUT name="DocStart" type="hidden">
+      <INPUT name="DocMax" type="hidden">
+      <INPUT name="sortGubun" type="hidden">
+      <FIELDSET>
+        <div class="search_con">
+          <LABEL class="hide" for="QueryText">Enter search
+            term</LABEL>
+          <INPUT name="QueryText" class="search-box" id="QueryText" onfocus="this.value='';" type="text"
+                 value="Enter search term">
+        </div>
+        <INPUT class="search-btn" type="image" alt="search" src="img/btn_search.png">
+      </FIELDSET>
+    </FORM>
+    <a class="btn_search search_close" href="javascript:;"><img alt="close" src="img/btn_search_close.png"></a>
+  </div>
+
+  <DIV id="contents">
+    <DIV class="localNav_area">
+      <DIV class="localNav">
+        <P>
+          <SPAN class="sp_home"><IMG alt="HOME" src="img/icon_home.png"></SPAN>
+        </P>
+        <P class="localNav_1">
+          <SPAN class="txt">Business Ethics</SPAN>
+        </P>
+        <DIV class="menuLink menuLink1">
+          <A class="open " href="javascript:;">Code of
+            Ethics<SPAN class="sp_img"><IMG alt="" src="img/icon_arrowDown.png"></SPAN></A>
+          <UL class="menu">
+            <LI class=" on">
+              <A href="#">Code of Ethics</A>
+            </LI>
+            <LI>
+              <A class=" txt1" href="#">Major Activities</A>
+            </LI>
+          </UL>
+        </DIV>
+        <DIV class="menuLink menuLink2">
+          <A class="open " href="javascript:;">Practice
+            Guidelines<SPAN class="sp_img"><IMG alt="" src="img/icon_arrowDown.png"></SPAN></A>
+          <UL class="menu">
+            <LI>
+              <A href="company.html">CEO Message</A>
+            </LI>
+            <LI>
+              <A href="ethics-charter.html">Ethics Charter</A>
+            </LI>
+            <LI class=" on">
+              <A href="#">Practice Guidelines</A>
+            </LI>
+          </UL>
+        </DIV>
+      </DIV>
+    </DIV>
+
+    <DIV id="content_area">
+      <DIV class="h3_area">
+        <DIV class="sub_visual10">
+          <H2 class="hide">Company</H2>
+          <H3 class="hide">Business Ethics</H3>
+          <H4 class="tit">Practice Guidelines</H4>
+        </DIV>
+      </DIV>
+      <DIV class="tabLink m_area2">
+        <A title="Open menu" class="open" href="javascript:;">Practical
+          Guidelines<SPAN class="sp_img"><IMG alt="" src="img/icon_tab3.png"></SPAN></A>
+
+        <UL class="tab3_con">
+          <LI>
+            <A href="business.html">CEO Message</A>
+          </LI>
+          <LI>
+            <A href="ethics-charter.html">Ethics Charter</A>
+          </LI>
+          <LI class="on">
+            <A href="practice-guidelines.html">Practical Guidelines</A>
+          </LI>
+        </UL>
+      </DIV>
+
+      <UL class="tab4_con tab4_con3 first web_area2">
+        <LI>
+          <A href="business.html">CEO Message</A>
+        </LI>
+        <LI>
+          <A href="ethics-charter.html">Ethics Charter</A>
+        </LI>
+        <LI class="on">
+          <A href="practice-guidelines.html">Practical Guidelines</A>
+        </LI>
+      </UL>
+      <UL class="compnay_list06 mt-30">
+        <LI>
+          <A id="guide-1" href="#">Practice
+            of Ethics and Compliance with Law</A> </LI>
+        <LI>
+          <A href="#">Employees
+            and Executives' Work Life Balance</A> </LI>
+        <LI>
+          <A href="#">Creation
+            of Customer Value and Building Trust</A> </LI>
+        <LI>
+          <A href="#">Duty
+            of Good Faith and Fair Dealings Toward Investors</A> </LI>
+        <LI id="guide-1">
+          <A href="#">Building
+            Win-Win Relations with Business Partners</A> </LI>
+        <LI>
+          <A href="#">Contribution
+            to the Country and Society</A> </LI>
+        <LI>
+          <A href="#">Protection
+            of Environment and Preservation of Eco-system</A> </LI>
+        <LI>
+          <A href="#">Protection
+            of and Respect for Human Rights</A> </LI>
+      </UL>
+      <H6 class="tit4 mt-20">Practice of Ethics and Compliance with Law</H6>
+      <P class="mt-10">
+        <STRONG>As a global enterprise, we will nurture ethical
+          corporate culture by performing management activities faithful to basic
+          principles and complying with laws and ethics.</STRONG>
+      </P>
+      <P class="mt-10">① Money and Other Valuables</P>
+      <OL class="action-raw-list">
+        <LI>- Money and other valuables mean money (e.g. cash, gift certificates, and memberships) and things that can bring economic benefits.</LI>
+        <LI>- By all means, employees must not demand or receive money and valuables from stakeholders . However, this does not include gifts for promotion or publicity that do not exceed 50,000 KRW, souvenirs with the company's logo, and souvenirs generally
+          provided by all participants of the events hosted by stakeholders.
+        </LI>
+        <LI>- If money and other valuables were received unknowingly or involuntarily, such money and valuables should be returned, or if not returnable, should be reported to the compliance department.</LI>
+      </OL>
+      <P class="mt-20">② Entertainment</P>
+      <OL class="action-raw-list">
+        <LI>- Entertainment means a variety of activities carried out for the purpose of business networking and business meetings including meals, drinks, golf, shows and games.</LI>
+        <LI>- Employees must not exchange in forms of entertainment with stakeholders that exceed 100,000 KRW per person. If this is required due to the nature of the business, employees must obtain approval from their department head in advance. If they have
+          inevitably participated in a form of entertainment that exceeds 100,000 KRW, they must report to the Righteous Management Office. Entertainment at drinking places with hosts/hostesses is prohibited regardless of the amount.</LI>
+      </OL>
+      <P class="mt-20">③ Convenience</P>
+      <OL class="action-raw-list">
+        <LI>- Convenience means provision or receipt of benefits such as transportation, accommodation, sight-seeing and support for an event.
+        <LI>- Provision or receipt of convenience exceeding customary level whether transportation or accommodation is prohibited, except for the convenience generally provided to all participants in the event.</LI>
+        <LI>- In the event that entertainment exceeding customary level was received or provided unavoidably, such activity should be reported to the compliance department.
+        </LI>
+      </OL>
+      <P class="mt-20">④ Congratulatory or Condolatory Money</P>
+      <OL class="action-raw-list">
+        <LI>- Employee should not notify his or his co-worker's congratulatory or condolatory event to interested parties. Notification through a third party will be deemed notification by the employee himself/herself.</LI>
+        <LI>- Information on congratulatory or condolatory event should be provided through the congratulatory/condolatory bulletin board, and use of work e-mail or sending out a written notice (wedding invitation or obituary notice) for such purpose is prohibited.
+          The permitted scope of the relatives for the purpose of notification of congratulatory or condolatory event is limited to the employees or their spouses' grandparents, parents and children.</LI>
+        <LI>- Employees are encouraged not to spend more than 50,000 KRW, which is a generally accepted amount based on social customs, as expenditure for congratulations and condolences among employees.</LI>
+        <LI>- In no event employees may receive any congratulatory or condolatory money from an interested party. In the event that any congratulatory or condolatory money was received unavoidably, the money should be returned to the provider or forwarded to
+          the compliance department.</LI>
+        <LI>- Upon the request of the compliance department, employees and executives should submit a record relating to the congratulatory or condolatory money received from and returned to the interested party.</LI>
+        <LI>- One should not receive congratulatory or condolatory wreath from the interested party. In the event that the wreath was received unavoidably, it should not be displayed.</LI>
+        <LI>- Executives and employees will not throw an extravagant wedding at an expensive venue such as a five star hotel.</LI>
+      </OL>
+      <P class="mt-20">⑤ Requests/Recommendations</P>
+      <OL class="action-raw-list">
+        <LI>- Employees must not make requests/recommendations regarding the following matters through in-house acquaintances or outsiders, and must register on the 'Clean HOUNGKING System' upon receiving requests/recommendations. However, registration is not necessary
+          if such requests/recommendations are immediately refused and thus are withdrawn by those who requested.</LI>
+        <LI>· Request for special favors in equipment/material purchasing and various contracts
+        </LI>
+        <LI>· Request for preferential treatment and special favors in various personnel affairs such as employment, promotions, rewards and punishment, and change of assignment</LI>
+        <LI>· Request for preferential treatment such as excessive conveniences and favors beyond conventional procedures</LI>
+        <LI>· Request for negligence in management and supervision such as inspection or repair</LI>
+      </OL>
+      <P class="mt-20">⑥ Pecuniary Transactions</P>
+      <OL class="action-raw-list">
+        <LI>- One should not engage in pecuniary transactions with an interested party such as lending or borrowing of money, providing a guarantee, or leasing of a real estate.</LI>
+        <LI>- In the event one had to enter into a pecuniary transactions with an interested party unavoidably, it should be reported to the compliance department.
+        </LI>
+        <LI>- One should legitimately obtain and use other company information including competitor's information.</LI>
+      </OL>
+      <P class="mt-20">⑦ Support for Events</P>
+      <OL class="action-raw-list">
+        <LI>- One should not receive any support from an interested party, whether money or other valuables, in relation to any event organized by the department or as company extracurricular activities.</LI>
+        <LI>- Any form of convenience received from an interested party such as transportation, venue or services in relation to such event will be deemed receipt of money or other valuables for the event.</LI>
+        <LI>- In the event that the interested party's support to an event was received unavoidably, it should be reported to the compliance department.
+        </LI>
+      </OL>
+      <P class="mt-20">⑧ Inappropriate Use of Budget Resources</P>
+      <OL class="action-raw-list">
+        <LI>- One should not use budget resources (such as meeting expenses and business promotion expenses) for personal purposes.</LI>
+        <LI>- As a general rule, company expenditure should be paid by a corporate credit card in accordance with the purpose of the budget and the guidelines prescribed by law.</LI>
+      </OL>
+      <P class="mt-20">⑨ Protection of Information and Assets</P>
+      <OL class="action-raw-list">
+        <LI>- One should strictly protect confidential or important information of the company.
+        </LI>
+        <LI>- One should relay important information that comes to one's attention promptly to the person who needs to know such information for performance of his job.</LI>
+        <LI>- One should not fabricate information or disseminate false information.
+        </LI>
+        <LI>- One should refrain from using company supplies and facilities for purposes not directly related to work.</LI>
+      </OL>
+      <P class="mt-20" id="guide-2">⑩ Compliance with Antitrust Laws</P>
+      <OL class="action-raw-list">
+        <LI>- One should comply with relevant international and local antitrust laws and not engage in anti-competitive practices such as collusion with competitors with respect to production, prices, bidding or market segmentation.
+        </LI>
+        <LI>- One should not demand any form of compensation or make inappropriate request to customers or business partners using one's dominant position.</LI>
+        <LI>- One should respect the rights and property of others including their intellectual property rights, and should not try to enter into transactions or make profits by infringing upon such rights.</LI>
+      </OL>
+      <H6 class="tit4 mt-20">Employees and Executives' Work Life Balance</H6>
+      <P class="mt-10">
+        <STRONG>We will pursue personal growth and corporate
+          development by maintaining work and life balance, and create a happy workplace
+          by establishing a corporate culture of mutual respect.</STRONG>
+      </P>
+      <P class="mt-10">① Pursuit of Work Life Balance</P>
+      <OL class="action-raw-list">
+        <LI>- We will try to improve the quality of life of the executives and employees by providing benefits helpful for maintaining stable life.</LI>
+        <LI>- We will support executives and employees to achieve their individual visions, and allow them flexibility in terms of the time, places and methods in performing the work.</LI>
+      </OL>
+      <P class="mt-20">② Provision of Opportunity for Education and Growth.</P>
+      <OL class="action-raw-list">
+        <LI>- We will organize work environment and systems where creativity can be enhanced.
+        </LI>
+        <LI>- We will support executives'and employee's education and participation in development programs such that they can fully develop their potentials.
+        </LI>
+      </OL>
+      <P class="mt-20">③ Fair Evaluation and Compensation</P>
+      <OL class="action-raw-list">
+        <LI id="guide-3">- We will make impartial and systematic evaluation system of the executives and employees based on their individual competency and performance and provide appropriate compensation therefor.</LI>
+      </OL>
+      <P class="mt-20">④ Creation of Healthy Organizational Culture</P>
+      <OL class="action-raw-list">
+        <LI>- Executives and employees will work for open corporate culture through open communication.</LI>
+        <LI>- Executives and employees will remove barriers between departments and pursue cooperative atmosphere.</LI>
+      </OL>
+      <H6 class="tit4 mt-30">Creation of Customer Value and Building Trust</H6>
+      <P class="mt-10">
+        <STRONG>Recognizing that customers' trust and success is the
+          future for us, we will always respect customers' opinions, understand customers
+          and create values that are helpful for customers' growth.</STRONG>
+      </P>
+      <P class="mt-10">① Realization of Customer Satisfaction</P>
+      <OL class="action-raw-list">
+        <LI>- We will perform customer-oriented work where the voice of customers is heard and respected.</LI>
+        <LI>- We will actively accommodate customer's legitimate demand and reasonable suggestions.
+        </LI>
+      </OL>
+      <P class="mt-20">② Creation of Customer Value</P>
+      <OL class="action-raw-list">
+        <LI>- We will satisfy customer's needs by providing the best products through continuous technology development.</LI>
+        <LI>- Executives and employees will try to understand the domestic and overseas market situation and develop service mind that respects customers' culture and practices.</LI>
+      </OL>
+      <P class="mt-20" id="guide-4">③ Obtaining Customer Trust</P>
+      <OL class="action-raw-list">
+        <LI>- We will pay due attention to the safety and health issue of the customers in our management activities, and not provide any product or service that might threaten customer's safety and health.</LI>
+        <LI>- We will protect customer information and comply with relevant laws and regulations.
+        </LI>
+        <LI>- We will provide accurate information to customers on a timely basis.
+        </LI>
+      </OL>
+      <H6 class="tit4 mt-20">Duty of Good Faith and Fair Dealings Toward
+        Investors</H6>
+      <P class="mt-10">
+        <STRONG>We will maximize investors' values by realizing
+          legitimate profits through transparent decision making and effective management
+          activities.</STRONG>
+      </P>
+      <P class="mt-10">① Pursuit of Increased Shareholder Value</P>
+      <OL class="action-raw-list">
+        <LI>- We will make profits through transparent decision making and efficient management, and increase corporate and shareholder value at the same time.
+        </LI>
+      </OL>
+      <P class="mt-20">② Impartial Provision of Investment Information</P>
+      <OL class="action-raw-list">
+        <LI>- We will not provide information that might affect the decision making of investors to only certain investors, nor provide partial information.</LI>
+        <LI>- We will not directly trade stocks or securities nor recommend trading to others using insider information obtained while working for the company.
+        </LI>
+      </OL>
+      <P class="mt-20">③ Transparent Calculation and Provision of Financial Information.
+      </P>
+      <OL class="action-raw-list">
+        <LI id="guide-5">- We will process all financial information based on accurate transactions records implementing appropriate process and control.</LI>
+        <LI>- We will prepare financial reports in accordance with generally accepted accounting standards.</LI>
+        <LI>- We will provide sufficient and accurate information regarding management of the company to investors so that investors may freely make investment decisions at its own responsibility.</LI>
+      </OL>
+      <H6 class="tit4 mt-20">Building Win-Win Relations with Business Partners</H6>
+      <P class="mt-10">
+        <STRONG>We will establish fair trade system based on mutual
+          trust and build a corporate eco-system where interested parties co-exist and
+          grow together.</STRONG>
+      </P>
+      <P class="mt-10">① Building Mutual Trust</P>
+      <OL class="action-raw-list">
+        <LI>- We will pursue fair dealings with our business partners on equal footing and based on mutual respect.</LI>
+        <LI>- We will strictly protect information received from transactions with business partners in accordance with the terms of the relevant contract and the relevant laws.</LI>
+        <LI>- We will support business partners to comply with anti-competition related laws and regulations.</LI>
+      </OL>
+      <P class="mt-20">② Pursuing Mutual Growth with Business Partners</P>
+      <OL class="action-raw-list">
+        <LI>- We will pursue mutual benefits by sharing fruitful outcome with business partners.
+        </LI>
+        <LI>- We will cooperate and communicate openly with business partners such that business partners may provide high quality products and services.</LI>
+        <LI id="guide-6">- We will provide fair opportunities and reasonable transaction terms to business partners so that they could grow as our long term business partner.</LI>
+      </OL>
+      <P class="mt-20">③ Support for Continuing Development of Business Partners</P>
+      <OL class="action-raw-list">
+        <LI>- We will endeavor to build a stable supply chain by providing technical and financial supports to business partners.</LI>
+        <LI>- We will endeavor to expand the potential pool of business partners that can grow with us in harmonious development of overall corporate eco-system.
+        </LI>
+      </OL>
+      <H6 class="tit4 mt-20">Contribution to the Country and Society</H6>
+      <P class="mt-10">
+        <STRONG>We will contribute to the growth of the country and
+          society by fulfilling our responsibilities and duties as a global corporate
+          citizen.</STRONG>
+      </P>
+      <P class="mt-10">① Roles and Attitude as a Corporate Citizen</P>
+      <OL class="action-raw-list">
+        <LI>- We will respect the laws and the regulations of the local laws and regulations as well as local culture and tradition, and endeavor for mutual development with the country and society.</LI>
+        <LI>- We will encourage participation of and endeavor to communicate with interested parties in performing management activities that may affect country and society.</LI>
+        <LI>- We will encourage business partners to participate in activities for the development of the country and the society.</LI>
+      </OL>
+      <P class="mt-20" id="guide-7">② Contribution to the Development of the Country and the Society</P>
+      <OL class="action-raw-list">
+        <LI>- We will discharge our obligations in the community by creating and maintaining stable jobs and paying taxes in time.</LI>
+        <LI>- We will actively participate in social service activities, such as volunteer works and disaster relief work, and initiate non profit activities in various fields including culture, arts, sports and education.</LI>
+        <LI>- We will provide support for residents'effort to improve quality of their lives and pursuit of happy life.</LI>
+      </OL>
+      <H6 class="tit4 mt-20">Protection of Environment and Preservation of
+        Eco-system</H6>
+      <P class="mt-10">
+        <STRONG>We will establish an environmental management system,
+          strengthen our ability to deal with environmental risks and implement
+          environment-friendly management through open communication.</STRONG>
+      </P>
+      <P class="mt-10">① Implementation of Environmental Management System</P>
+      <OL class="action-raw-list">
+        <LI>- We will effectively implement environmental management system, evaluate impacts and risk of business activities on environment and analyze and manage the results of environmental management.</LI>
+        <LI>- We will share benefits and issues with various interested parties, and jointly carry out environmental protection activities.</LI>
+        <LI>- We will convince business partners to believe that protection of environment is fundamental social responsibility of a company, and support business partners to comply with laws and regulations related to environmental protection.
+        </LI>
+        <LI>- We will support business partners to manufacture products and provide services while protecting the public health and minimizing adverse effects on the environment and the natural resources of the community.</LI>
+      </OL>
+      <P class="mt-20">② Complying with Environmental Laws and Improvement on Environmental Impacts</P>
+      <OL class="action-raw-list">
+        <LI>- We will endeavor to comply with environmental laws and to improve impacts on the environment in the overall process of developing, producing and using products.</LI>
+        <LI>- We will minimize discharge of pollutants by introducing environment-friendly manufacturing process and applying technologies optimized for prevention of pollution.</LI>
+      </OL>
+      <P class="mt-20">③ Dealing with Climate Changes</P>
+      <OL class="action-raw-list">
+        <LI id="guide-8">- We will endeavor to reduce consumption of fossil fuels or materials, and to minimize discharge of greenhouse gas by improving energy efficiency.
+        </LI>
+        <LI>- We will enhance competitiveness by developing innovative low-carbon technology.
+        </LI>
+      </OL>
+      <P class="mt-20">④ Protection of Environment and Eco-system</P>
+      <OL class="action-raw-list">
+        <LI>- We will endeavor to restore the eco-system and preserve biological diversity through effective use of natural resources and by-products.</LI>
+      </OL>
+      <H6 class="tit4 mt-20">Protection of and Respect for Human Rights</H6>
+      <P class="mt-10">
+        <STRONG>We will respect human rights, support international
+          standards for human rights and strengthen dignity of all interested parties by
+          improving freedom, safety and quality of life.</STRONG>
+      </P>
+      <P class="mt-10">① Respect for International Standards Regarding Human Rights
+      </P>
+      <OL class="action-raw-list">
+        <LI>- We will support and respect internationally recognized standards on human rights, such as Universal Declaration of Human Rights, Guiding Principles on Business and Human Rights, UN Global Compact, and OECD Guidelines for Multinational Enterprises.</LI>
+        <LI>- We will establish clear policy and system for protection of human rights and endeavor not to violate human rights in our management activities.</LI>
+        <LI>- We will support business partners to comply with internationally recognized human rights standards and regulations, protect their employees'human rights and treat them fairly.</LI>
+      </OL>
+      <P class="mt-20">② Due diligence in Relation to Human Rights</P>
+      <OL class="action-raw-list">
+        <LI>- We may, at our discretion, conduct due diligence on management activities that might violate human rights or cause complaints.</LI>
+        <LI>- We will endeavor to find reasonable resolutions if, upon conclusion of the human rights due diligence, we believe our management activities have violated human rights or caused complaints.</LI>
+        <LI>- We will communicate with the relevant interested parties regarding human rights related activities and results thereof.</LI>
+      </OL>
+      <P class="mt-20">③ Protection of Executives and Employees</P>
+      <OL class="action-raw-list">
+        <LI>- We will not engage in verbal, physical or demonstrative acts that may offend others or infringes other's human rights such as sexual harassment.
+        </LI>
+        <LI>- We will respect privacy of executives and employees, will not slander or defame others, and will protect personal information.</LI>
+        <LI>- We will not compel works through mental or physical coercion.</LI>
+        <LI>- We will comply with local labor laws and international standards with respect to the age and labor conditions of minors.</LI>
+        <LI>- We will strictly comply with safety regulations, and will take appropriate actions upon discovery of risk factors.</LI>
+      </OL>
+      <P class="mt-20">④ Respect and Equality</P>
+      <OL class="action-raw-list">
+        <LI>- We will not discriminate or harass for reasons of race, nationality, gender, age, educational background, religion, regional origin, disability, marital status, and sexual orientation.</LI>
+        <LI>- We will provide equal employment opportunity to those who possess necessary qualification and capability.</LI>
+        <LI>- We will maintain work environment that respects cultural diversity.
+        </LI>
+      </OL>
+      <P class="mt-20">⑤ Assurance for Legitimate and Humane Employment Terms</P>
+      <OL class="action-raw-list">
+        <LI>- We will take prompt actions for human rights issues raised by executives and employees through the company grievance procedure.</LI>
+        <LI>- We will offer adequate employment terms such as guaranteeing proper working hours to enable the employees to maintain life with dignity.</LI>
+      </OL>
+      <P class="mt-20">⑥ Efforts to Respect Community Human Rights</P>
+      <OL class="action-raw-list">
+        <LI>- We will endeavor to listen to the opinions of the community and resolve issues of violation of human rights caused by our management activities in the community.
+        </LI>
+      </OL>
+    </DIV>
+    <DIV class="sub_top">
+      <A href="practice-guidelines.html#wrap">
+        <IMG alt="top" src="img/btn_top_off.png">
+      </A>
+    </DIV>
+  </DIV>
+
+  <div class="footer">
+    <div class="footer_con">
+      <div class="sns_area2">
+        <a href="http://blog.houngking.cc/"><img alt="blog" src="img/s_blog.gif"></a>
+        <a href="http://www.facebook.com/HoungkingHsi"><img alt="facebook" src="img/s_facebook.gif"></a>
+        <a href="http://globalblog.houngking.cc/"><img alt="global blog" src="img/s_gBlog.gif"></a>
+        <a href="http://www.linkedin.com/imisslovelove"><img alt="LinkedIn" src="img/s_in.gif"></a>
+        <a href="http://www.youtube.com/imisslovelove"><img alt="youTube" src="img/s_youTube.gif"></a>
+        <a href="http://www.instagram.com/imisslovelove"><img alt="Instagram" src="img/s_instagram.gif"></a>
+        <a href="http://story.kakao.com/ch/imisslovelove"><img alt="kakao stroy" src="img/s_kakao.gif"></a>
+      </div>
+      <ul class="footer_menu">
+        <li><a href="company.html">Company</a>
+        </li>
+        <li><a href="business.html">Business Ethics</a></li>
+        <li><a href="products.html">Products / Technology</a></li>
+        <li><a href="investor.html">Investor Relations</a></li>
+        <li><a href="sustainability.html">Sustainability</a>
+        </li>
+        <li><a href="room.html">PR Room</a></li>
+      </ul>
+      <div class="serviceLink">
+        <ul>
+          <li><a title="popup(New window)"
+                 onclick="window.open(this.href,'email', 'width=350, height=250, scrollbars=yes, resizeable=no'); return false;"
+                 href="mailto:imisslovelove@live.com">Legal Information</a></li>
+          <li><a href="#">Digital Brochure</a></li>
+          <li><a href="#">Request Reports</a></li>
+          <li><a href="#">Annual Report</a></li>
+        </ul>
+      </div>
+      <div class="addr">
+        <P class="copyright">© houngking, All rights reserved.</P>
+      </div>
+    </div>
+  </div>
+
+  <div class="all_menu2" id="scroller">
+    <div>
+      <ul class="m-global_site cl">
+        <li><a href="#" target="_blank">KOR</a></li>
+        <li><a href="#">ENG</a></li>
+        <li><a href="#" target="_blank">CHN</a></li>
+        <li><a href="#" target="_blank">JPN</a></li>
+      </ul>
+      <ul class="all_menu2_con cl">
+        <li><a class=" txt1" href="company.html">Company</a>
+          <ul class="menu_sub">
+            <li>
+              <a href="company.html">Corporate
+                Overview</a>
+              <ul>
+                <li>
+                  <a href="company.html">Corporate
+                    Overview</a></li>
+                <li>
+                  <a href="#">Vision
+                    of houngking</a></li>
+                <li>
+                  <a href="index.html">History
+                    of houngking</a></li>
+              </ul>
+            </li>
+            <li><a class=" txt1" href="#">Brand</a>
+              <ul>
+                <li><a class=" txt1" href="#">Brand
+                  Story</a></li>
+                <li><a class=" txt1" href="#">CI</a>
+                </li>
+              </ul>
+            </li>
+            <li><a class=" txt1" href="company.html">CEO</a>
+              <ul>
+                <li><a class=" txt1" href="company.html">Greetings</a>
+                </li>
+                <li>
+                  <a href="company.html">CEO's
+                    Message</a></li>
+              </ul>
+            </li>
+            <li><a href="company.html">houngking
+              Affiliates</a>
+              <ul>
+                <li>
+                  <a href="company.html">houngking
+                    Affiliates</a></li>
+                <li><a class=" txt1" href="company.html">Steel</a>
+                </li>
+                <li><a class=" txt1" href="company.html">E&amp;C</a>
+                </li>
+                <li><a class=" txt1" href="company.html">Trade</a>
+                </li>
+                <li><a class=" txt1" href="company.html">ICT</a>
+                </li>
+                <li><a class=" txt1" href="company.html">Energy</a>
+                </li>
+                <li>
+                  <a href="company.html">Material
+                    - Chemistry</a></li>
+                <li><a class=" txt1" href="company.html">Support</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">houngking
+              Overseas</a>
+              <ul>
+                <li><a class=" txt1" href="#">Global</a>
+                </li>
+                <li><a class=" txt1" href="#">Asia</a>
+                </li>
+                <li><a class=" txt1" href="#">America</a>
+                </li>
+                <li><a class=" txt1" href="#">Europe&amp;Africa</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Business
+          Ethics</a>
+          <ul class="menu_sub">
+            <li>
+              <a href="#">Code
+                of Ethics</a>
+              <ul>
+                <li>
+                  <a href="company.html">CEO
+                    Message</a></li>
+                <li>
+                  <a href="ethics-charter.html">Ethics
+                    Charter</a></li>
+                <li>
+                  <a href="practice-guidelines.html">Practice
+                    Guidelines</a></li>
+              </ul>
+            </li>
+            <li><a class=" txt1" href="#">Major
+              Activities</a>
+              <ul>
+                <li>
+                  <a href="#">Operation
+                    of the Ethical Management System</a></li>
+                <li>
+                  <a href="#">Education
+                    on Corporate Ethics</a></li>
+                <li>
+                  <a href="#">Unethical
+                    Act Prevention System</a></li>
+                <li>
+                  <a href="#">External
+                    Activities and Results</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="products.html">Products
+          / Technology</a>
+          <ul class="menu_sub">
+            <li>
+              <a href="products.html">Products
+                of houngking </a>
+              <ul>
+                <li>
+                  <a href="products.html">Hot
+                    Rolled Steel</a></li>
+                <li><a class=" txt1" href="#">Steel
+                  Plate</a></li>
+                <li><a class=" txt1" href="#">Wire
+                  Rod</a></li>
+                <li>
+                  <a href="#">Cold
+                    Rolled Steel</a></li>
+                <li>
+                  <a href="#">Galvanized
+                    Steel</a></li>
+                <li>
+                  <a href="#">Electrical
+                    Galvanized Steel</a></li>
+                <li><a class=" txt1" href="#">Electrical
+                  Steel</a></li>
+                <li>
+                  <a href="#">Automotive
+                    materials</a></li>
+                <li><a class=" txt1" href="#">Stainless
+                  Steel</a></li>
+                <li>
+                  <a href="#">Titanium
+                    Product</a></li>
+                <li>
+                  <a href="#">Magnesium
+                    Product</a></li>
+                <li>
+                  <a href="#">Aluminum-plated
+                    products</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="products.html">houngking
+                Technology</a>
+              <ul>
+                <li>
+                  <a href="#">FINEX
+                    Technology</a></li>
+                <li><a class=" txt1" href="#">Strip
+                  Casting</a></li>
+                <li>
+                  <a href="#">Endless
+                    Hot Rolling Technology</a></li>
+                <li>
+                  <a href="#">Operation
+                    Technology</a></li>
+                <li>
+                  <a href="#">CEM
+                    Technology</a></li>
+              </ul>
+            </li>
+            <li class=" no-menu"><a href="#">Production
+              Process</a></li>
+            <li>
+              <a href="#">Sales
+                information</a>
+              <ul>
+                <li><a class=" txt1" href="#">e-Sales</a>
+                </li>
+                <li><a class=" txt1" href="#">e-Procurement</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="investor.html">Investor
+          Relations</a>
+          <ul class="menu_sub">
+            <li class=" no-menu"><a class=" txt1" href="investor.html">IR
+              Activities</a></li>
+            <li>
+              <a href="#">Stock
+                Information</a>
+              <ul>
+                <li><a class=" txt1" href="#">Stock
+                  Price</a></li>
+                <li>
+                  <a href="#">Price
+                    Comparision</a></li>
+                <li><a class=" txt1" href="#">ADR</a>
+                </li>
+                <li>
+                  <a href="#">houngking
+                    Stock Exchange</a></li>
+                <li>
+                  <a href="#">Economic
+                    Trend</a></li>
+                <li>
+                  <a href="#">Shareholders
+                    Demographics</a></li>
+                <li><a class=" txt1" href="#">Dividend</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Financial
+                Information</a>
+              <ul>
+                <li>
+                  <a href="#">Income
+                    Statement</a></li>
+                <li><a class=" txt1" href="#">Credit
+                  Rating</a></li>
+              </ul>
+            </li>
+            <li><a class=" txt1" href="investor.html">IR
+              Archive</a>
+              <ul>
+                <li><a class=" txt1" href="#">Audit
+                  Report</a></li>
+                <li><a class=" txt1" href="#">Form
+                  20-F</a></li>
+                <li><a class=" txt1" href="#">Annual
+                  Report</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="sustainability.html">Sustainability</a>
+          <ul class="menu_sub">
+            <li class=" txt2"><a href="sustainability.html">Sustainability
+              Management System</a>
+              <ul>
+                <li>
+                  <a href="#">Sustainability
+                    Management System</a></li>
+                <li>
+                  <a href="#">houngking
+                    Subsidiaries CSR Assessment</a></li>
+                <li>
+                  <a href="#">Risk
+                    Management</a></li>
+                <li><a class=" txt1" href="#">Stakeholder</a>
+                </li>
+                <li>
+                  <a href="#">Relevant
+                    Institutes Activities</a></li>
+              </ul>
+            </li>
+            <li class=" no-menu"><a href="#">Social
+              Responsibility </a></li>
+            <li class=" txt2"><a href="#">Environmental
+              Management </a>
+              <ul>
+                <li>
+                  <a href="#">Family's
+                    Environmental Management</a></li>
+                <li>
+                  <a href="#">Environmental
+                    Management</a></li>
+                <li>
+                  <a href="#">Climate
+                    change /Energy</a></li>
+              </ul>
+            </li>
+            <li><a class=" txt1" href="#">Customer</a>
+              <ul>
+                <li>
+                  <a href="#">Marketing
+                    strategy</a></li>
+              </ul>
+            </li>
+            <li><a class=" txt1" href="#">Employee</a>
+              <ul>
+                <li>
+                  <a href="#">Employee
+                    Health / Safety</a></li>
+                <li>
+                  <a href="#">Organizational
+                    Culture</a></li>
+                <li>
+                  <a href="#" target="_blank">HR system</a></li>
+              </ul>
+            </li>
+            <li><a class=" txt1" href="#">Report</a>
+              <ul>
+                <li>
+                  <a href="#">Sustainability
+                    Report</a></li>
+                <li><a class=" txt1" href="#">Carbon
+                  Report</a></li>
+                <li>
+                  <a href="#">Conflict
+                    Minerals Disclosure</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a class=" txt1" href="room.html">PR
+          Room</a>
+          <ul class="menu_sub">
+            <li class=" no-menu"><a class=" txt1" href="room.html">Newsroom</a>
+            </li>
+            <li class=" no-menu"><a class=" txt1" href="room.html">Newsletter</a>
+            </li>
+            <li class=" no-menu"><a class=" txt1" href="room.html">houngking
+              SNS</a></li>
+            <li><a class=" txt1" href="#">PR
+              Archives</a>
+              <ul>
+                <li>
+                  <a href="#">Digital
+                    Brochure</a></li>
+                <li>
+                  <a href="#">TV
+                    Cormmercials</a></li>
+                <li><a class=" txt1" href="#">Screen
+                  Saver</a></li>
+                <li><a class=" txt1" href="#">PR
+                  Movies</a></li>
+                <li>
+                  <a href="#">Printed
+                    Advertisement</a></li>
+              </ul>
+            </li>
+            <li><a class=" txt1" href="#">Download</a>
+              <ul>
+                <li><a class=" txt1" href="company.html">Company</a>
+                </li>
+                <li>
+                  <a href="products.html">Products
+                    / Technology</a></li>
+                <li>
+                  <a href="investor.html">Investor
+                    Relations</a></li>
+                <li><a class=" txt1" href="sustainability.html">Sustainability</a>
+                </li>
+                <li><a class=" txt1" href="room.html">PR
+                  Room</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Contact
+            Us</a>
+          <ul class="menu_sub">
+            <li class=" no-menu"><a class=" txt1" href="#">Q&amp;A</a>
+            </li>
+            <li class=" no-menu"><a class=" txt1" href="#">Search</a>
+            </li>
+            <li><a class=" txt1" href="#">Location</a>
+              <ul>
+                <li><a class=" txt1" href="#">Head
+                  Office</a></li>
+                <li><a class=" txt1" href="#">houngking
+                  Center</a></li>
+                <li><a class=" txt1" href="#">Works</a>
+                </li>
+              </ul>
+            </li>
+            <li class=" no-menu"><a class=" txt1" href="#">Sitemap</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <a class="btn_nav2 close" href="javascript:;"><img alt="Close" src="img/btn_close3.png"></a>
+    </div>
+  </div>
+</DIV>
+<DIV id="mask"></DIV>
+</BODY>
+
+</HTML>

@@ -1,0 +1,486 @@
+.dcsns ul {
+	background: none; list-style: none !important; margin: 0px; padding: 0px;
+}
+.dcsns li {
+	background: none; list-style: none !important; margin: 0px; padding: 0px;
+}
+.dcsns {
+	list-style: none; margin: 0px; color: rgb(68, 68, 68);
+}
+.dcsns h1 {
+	width: auto; position: relative;
+}
+.dcsns h1 {
+	line-height: 1.35em;
+}
+.dcsns h2 {
+	line-height: 1.35em;
+}
+.dcsns h3 {
+	line-height: 1.35em;
+}
+.dcsns-content {
+	padding: 0px; position: relative;
+}
+.dcsns-loading {
+	background: url("../img/loading_light.gif") no-repeat 0px 0px; padding: 6px 0px 0px 30px; left: 10px; top: 10px; height: 24px; position: absolute;
+}
+.dcsns-toolbar .dcsns-loading {
+	left: auto; right: 10px;
+}
+.stream p {
+	margin: 0px; padding: 0px;
+}
+.stream li a {
+	color: rgb(45, 182, 232);
+}
+.stream li {
+	margin: 0px 12px 12px 0px; padding: 15px 20px 35px 15px; width: 445px; line-height: 1.35em; font-size: 9pt; position: relative; box-shadow: 0px 1px 2px rgba(0,0,0,0.5); background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.stream li .inner {
+	padding: 0px 15px; overflow: hidden;
+}
+.stream li .icon {
+	left: 3px; bottom: 0px; position: absolute; z-index: 3;
+}
+.stream li .section-intro {
+	padding: 7px 0px; left: 0px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); font-size: 9pt; font-style: normal; font-weight: bold; position: absolute; z-index: 2;
+}
+.stream li .clear {
+	clear: both;
+}
+.stream li .section-intro a {
+	color: rgb(255, 255, 255); text-decoration: underline; margin-left: 32px;
+}
+.stream li .section-title {
+	font-weight: bold; margin-bottom: 3px; display: block;
+}
+.stream li .section-title a {
+	color: rgb(0, 0, 0); font-size: 14px; font-weight: bold;
+}
+.stream li .section-title a:hover {
+	color: rgb(45, 182, 232); font-size: 14px; font-weight: bold;
+}
+.stream li .section-thumb {
+	margin: 0px 7px 0px 0px; float: left;
+}
+.stream li .section-thumb img {
+	background: rgb(255, 255, 255); padding: 1px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.stream li .section-text {
+	margin-bottom: 3px; display: block;
+}
+.stream li .section-text br {
+	display: block;
+}
+.stream li .section-user {
+	background: url("../img/profile.png") no-repeat 0px 7px; margin: 0px 8px 5px 0px; padding: 7px 0px 0px 15px; line-height: 12px; clear: both; float: left; display: block;
+}
+.stream li .meta {
+	color: rgb(153, 153, 153); font-size: 90%; display: block;
+}
+.stream li .meta span {
+	margin: 0px 8px 5px 0px; padding: 0px 0px 0px 15px; line-height: 12px; float: left; display: block;
+}
+.meta span.shares {
+	background: url("../img/shares.png") no-repeat 0px 0px; padding-left: 20px;
+}
+.meta span.views {
+	background: url("../img/views.png") no-repeat 0px 0px; padding-left: 18px;
+}
+.meta span.likes {
+	background: url("../img/likes.png") no-repeat 0px 0px; padding-left: 16px;
+}
+.meta span.comments {
+	background: url("../img/comments.png") no-repeat 0px 0px;
+}
+.meta span.users {
+	background: url("../img/users.png") no-repeat 0px 0px;
+}
+.meta span.videos {
+	background: url("../img/videos.png") no-repeat 0px 0px; padding-left: 16px;
+}
+.stream li .section-meta {
+	margin: 0px; padding: 0px; clear: both; display: block;
+}
+.stream li .meta.item-comments {
+	margin: 0px 0px 5px; padding: 0px 0px 0px 35px; line-height: 1.3em; clear: both; position: relative; min-height: 30px;
+}
+.stream li .meta.item-comments img {
+	left: 0px; top: 0px; width: 30px; position: absolute;
+}
+.stream li .meta.item-likes {
+	padding: 0px; width: 100%; line-height: 1.3em; overflow: hidden; clear: both;
+}
+.stream li .meta.item-likes img {
+	background: rgb(255, 255, 255); margin: 0px 5px 5px 0px; padding: 1px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 30px; float: left;
+}
+.stream li.dcsns-error {
+	color: rgb(153, 0, 0);
+}
+.stream li .section-share {
+	margin: 0px 0px 5px; padding: 4px 0px 0px; float: right; display: block;
+}
+.stream li .section-share a {
+	background: url("../img/share.png") no-repeat 0px 0px; margin: 0px 2px 0px 0px; width: 16px; height: 16px; float: left; display: block;
+}
+.stream li .section-share a.share-twitter {
+	background-position: 0px -16px;
+}
+.stream li .section-share a.share-reply {
+	background-position: 0px -32px;
+}
+.stream li .section-share a.share-retweet {
+	background-position: 0px -48px;
+}
+.stream li .section-share a.share-favorite {
+	background-position: 0px -64px;
+}
+.stream li .section-share a.share-google {
+	background-position: 0px -80px;
+}
+.stream li .section-share a.share-linkedin {
+	background-position: 0px -96px;
+}
+.stream li .section-share a.share-facebook:hover {
+	background-position: -16px 0px;
+}
+.stream li .section-share a.share-twitter:hover {
+	background-position: -16px -16px;
+}
+.stream li .section-share a.share-reply:hover {
+	background-position: -16px -32px;
+}
+.stream li .section-share a.share-retweet:hover {
+	background-position: -16px -48px;
+}
+.stream li .section-share a.share-favorite:hover {
+	background-position: -16px -64px;
+}
+.stream li .section-share a.share-google:hover {
+	background-position: -16px -80px;
+}
+.stream li .section-share a.share-linkedin:hover {
+	background-position: -16px -96px;
+}
+.dcsns-toolbar {
+	padding: 0px; width: 100%; overflow: hidden; position: relative;
+}
+#wall {
+	padding-top: 15px;
+}
+#wall .dcsns-toolbar {
+	margin-bottom: 25px;
+}
+.dcsns-toolbar .filter {
+	margin: 0px 0px 15px; padding: 0px;
+}
+.dcsns-toolbar .filter li {
+	background: none; margin: 0px; padding: 0px; display: inline;
+}
+.dcsns-toolbar .filter .link-all {
+	padding: 7px 7px 4px; height: 21px; color: rgb(255, 255, 255); font-weight: bold; text-shadow: 0px 0px 1px #555;
+}
+.dcsns-toolbar .filter li a {
+	background: rgb(119, 119, 119); margin: 0px 1px 1px 0px; padding: 4px 3px 0px; height: 28px; float: left; display: block;
+}
+.dcsns-toolbar .filter li img {
+	margin: 0px; height: 24px;
+}
+.dcsns .controls {
+	padding: 0px; top: 7px; height: 22px; right: 0px; position: absolute; z-index: 12;
+}
+.dcsns .controls li {
+	background: none; display: inline;
+}
+.dcsns .controls a {
+	background: url("../img/controls.png") no-repeat 0px 0px; margin: 0px 0px 0px 2px; width: 22px; height: 22px; float: left; display: block;
+}
+.dcsns .controls .prev {
+	background-position: -44px 0px;
+}
+.dcsns .controls .next {
+	background-position: -66px 0px;
+}
+.dcsns .controls .play {
+	background-position: 0px 0px;
+}
+.dcsns .controls .pause {
+	background-position: -22px 0px;
+}
+.dcsns .controls .prev:hover {
+	background-position: -44px -22px;
+}
+.dcsns .controls .next:hover {
+	background-position: -66px -22px;
+}
+.dcsns .controls .play:hover {
+	background-position: 0px -22px;
+}
+.dcsns .controls .pause:hover {
+	background-position: -22px -22px;
+}
+.stream li.dcsns-rss .section-intro {
+	background-color: rgb(255, 152, 0);
+}
+.filter .f-rss a:hover {
+	background-color: rgb(255, 152, 0);
+}
+.stream li.dcsns-flickr .section-intro {
+	background-color: rgb(249, 7, 132);
+}
+.filter .f-flickr a:hover {
+	background-color: rgb(249, 7, 132);
+}
+.stream li.dcsns-delicious .section-intro {
+	background-color: rgb(50, 113, 203);
+}
+.filter .f-delicious a:hover {
+	background-color: rgb(50, 113, 203);
+}
+.stream li.dcsns-twitter .section-intro {
+	background-color: rgb(78, 194, 220);
+}
+.filter .f-twitter a:hover {
+	background-color: rgb(78, 194, 220);
+}
+.stream li.dcsns-facebook .section-intro {
+	background-color: rgb(221, 221, 221);
+}
+.filter .f-facebook a:hover {
+	background-color: rgb(221, 221, 221);
+}
+.stream li.dcsns-google .section-intro {
+	background-color: rgb(45, 45, 45);
+}
+.filter .f-google a:hover {
+	background-color: rgb(45, 45, 45);
+}
+.stream li.dcsns-youtube .section-intro {
+	background-color: rgb(223, 31, 28);
+}
+.filter .f-youtube a:hover {
+	background-color: rgb(223, 31, 28);
+}
+.stream li.dcsns-pinterest .section-intro {
+	background-color: rgb(203, 37, 40);
+}
+.filter .f-pinterest a:hover {
+	background-color: rgb(203, 37, 40);
+}
+.stream li.dcsns-lastfm .section-intro {
+	background-color: rgb(201, 14, 18);
+}
+.filter .f-lastfm a:hover {
+	background-color: rgb(201, 14, 18);
+}
+.stream li.dcsns-dribbble .section-intro {
+	background-color: rgb(241, 117, 168);
+}
+.filter .f-dribbble a:hover {
+	background-color: rgb(241, 117, 168);
+}
+.stream li.dcsns-vimeo .section-intro {
+	background-color: rgb(78, 186, 255);
+}
+.filter .f-vimeo a:hover {
+	background-color: rgb(78, 186, 255);
+}
+.stream li.dcsns-stumbleupon .section-intro {
+	background-color: rgb(235, 73, 36);
+}
+.filter .f-stumbleupon a:hover {
+	background-color: rgb(235, 73, 36);
+}
+.stream li.dcsns-deviantart .section-intro {
+	background-color: rgb(235, 73, 36);
+}
+.filter .f-deviantart a:hover {
+	background-color: rgb(235, 73, 36);
+}
+.stream li.dcsns-tumblr .section-intro {
+	background-color: rgb(54, 84, 114);
+}
+.filter .f-tumblr a:hover {
+	background-color: rgb(54, 84, 114);
+}
+.stream li.dcsns-instagram .section-intro {
+	background-color: rgb(65, 58, 51);
+}
+.filter .f-instagram a:hover {
+	background-color: rgb(65, 58, 51);
+}
+.stream li.dcsns-facebook .section-thumb img {
+	width: 75px;
+}
+.stream li.dcsns-facebook .section-text img {
+	background: rgb(255, 255, 255); margin: 5px 7px 5px 0px; padding: 1px; border: 1px solid rgb(204, 204, 204); border-image: none; float: left;
+}
+.stream li.dcsns-facebook .section-text a {
+	margin-right: 4px;
+}
+.stream li.dcsns-facebook .section-intro a {
+	margin-left: 25px;
+}
+.stream li.dcsns-facebook .meta {
+	clear: both; display: block;
+}
+.stream li.dcsns-facebook .meta.item-comments {
+	padding: 0px; min-height: auto;
+}
+.stream li.dcsns-facebook .meta.item-comments a {
+	margin: 0px 0px 2px; display: block;
+}
+.stream li.dcsns-facebook .share-facebook {
+	display: none;
+}
+.stream li.dcsns-twitter .section-thumb {
+	margin-top: 3px;
+}
+.stream li.dcsns-twitter .section-user {
+	background: none; padding: 0px;
+}
+.stream li.dcsns-twitter .section-text img {
+	background: rgb(255, 255, 255); margin: 5px 0px 0px; padding: 1px; border: 1px solid rgb(221, 221, 221); border-image: none; max-width: 192px;
+}
+.stream li.dcsns-twitter a {
+	color: rgb(56, 174, 174);
+}
+.stream li.dcsns-twitter .section-intro a {
+	color: rgb(255, 255, 255);
+}
+.stream li.dcsns-twitter .section-intro a:hover {
+	color: rgb(255, 255, 255);
+}
+.stream li.dcsns-twitter .section-intro span a {
+	text-decoration: none; margin-left: 0px;
+}
+.stream li.dcsns-twitter .section-intro span a:hover {
+	text-decoration: underline;
+}
+.stream li.dcsns-twitter a:hover {
+	color: rgb(56, 174, 174); text-decoration: underline;
+}
+.stream li.dcsns-twitter .twitter-user {
+	margin-bottom: 2px; display: block;
+}
+.stream li.dcsns-twitter .twitter-user a {
+	color: rgb(153, 153, 153); line-height: 1.35em;
+}
+.stream li.dcsns-twitter .twitter-user a:hover {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+.stream li.dcsns-twitter .twitter-user a strong {
+	color: rgb(68, 68, 68);
+}
+.stream li.dcsns-twitter .twitter-user a:hover strong {
+	color: rgb(56, 174, 174); text-decoration: underline;
+}
+.stream li.dcsns-google .section-title {
+	margin-bottom: 5px;
+}
+.dcsns .stream li.dcsns-google .section-thumb img {
+	max-width: 192px;
+}
+.stream li.dcsns-google .meta span.plusones {
+	padding-left: 0px;
+}
+.stream li.dcsns-rss .section-text img {
+	background: rgb(255, 255, 255); padding: 1px; border: 1px solid rgb(221, 221, 221); border-image: none; max-width: 192px;
+}
+.dcsns .stream li.dcsns-stumbleupon .section-title {
+	clear: both; display: block;
+}
+.dcsns .stream li.dcsns-stumbleupon .section-thumb img {
+	max-width: 192px;
+}
+.stream li.dcsns-youtube .section-thumb img {
+	max-width: 192px;
+}
+.stream li.dcsns-vimeo .section-thumb img {
+	max-width: 192px;
+}
+.dcsns .stream li.dcsns-vimeo .section-title {
+	clear: both; display: block;
+}
+.stream li.dcsns-vimeo .section-text {
+	margin-bottom: 5px;
+}
+.stream li.dcsns-vimeo .section-text .meta {
+	padding-top: 5px;
+}
+.stream li.dcsns-vimeo .logo {
+	margin-bottom: 3px;
+}
+.stream li.dcsns-flickr .section-thumb {
+	margin: 0px;
+}
+.stream li.dcsns-flickr .section-thumb img {
+	max-width: 192px;
+}
+.stream li.dcsns-pinterest .section-thumb {
+	display: block;
+}
+.stream li.dcsns-pinterest .section-text {
+	clear: both;
+}
+.stream li.dcsns-pinterest .section-thumb img {
+	width: 190px;
+}
+.stream li.dcsns-dribbble .inner img {
+	margin-bottom: 5px; max-width: 192px;
+}
+.stream li.dcsns-lastfm .section-title {
+	background: url("../img/tracks.png") no-repeat 0px 0px; padding-left: 17px; margin-bottom: 0px;
+}
+.stream li.dcsns-deviantart .section-thumb {
+	float: none; display: block;
+}
+.stream li.dcsns-deviantart .section-thumb img {
+	max-width: 192px;
+}
+.stream li.dcsns-tumblr .section-text img {
+	background: rgb(255, 255, 255); margin: 0px 7px 5px 0px; padding: 1px; border: 1px solid rgb(221, 221, 221); border-image: none; float: left; max-width: 192px;
+}
+.stream li.dcsns-tumblr .track {
+	background: url("../img/tracks.png") no-repeat 0px 5px; padding: 5px 0px 0px 17px; margin-bottom: 0px; display: block;
+}
+.stream li.dcsns-instagram {
+	padding-bottom: 40px;
+}
+.stream li.dcsns-instagram .section-title {
+	clear: both; font-weight: normal;
+}
+.stream li.dcsns-instagram .section-thumb img {
+	background: rgb(255, 255, 255); margin: 0px 7px 5px 0px; padding: 1px; border: 1px solid rgb(221, 221, 221); border-image: none; float: left; max-width: 192px;
+}
+.stream li.dcsns-instagram .meta {
+	clear: both;
+}
+.stream li.dcsns-instagram .section-meta .meta .comments {
+	background-position: 0px 5px; margin: 0px 0px 5px; padding-top: 5px; font-size: 100%; font-weight: bold; float: none;
+}
+.stream li.dcsns-instagram .section-meta .meta .likes {
+	background-position: 0px 5px; margin: 0px 0px 5px; padding-top: 5px; font-size: 100%; font-weight: bold; float: none;
+}
+.isotope {
+	transition-duration: 0.8s; -webkit-transition-duration: 0.8s; -moz-transition-duration: 0.8s; -o-transition-duration: 0.8s;
+}
+.isotope .isotope-item {
+	transition-duration: 0.8s; -webkit-transition-duration: 0.8s; -moz-transition-duration: 0.8s; -o-transition-duration: 0.8s;
+}
+.isotope {
+	transition-property: height, width; -webkit-transition-property: height, width; -moz-transition-property: height, width; -o-transition-property: height, width;
+}
+.isotope .isotope-item {
+	transition-property: transform, opacity; -webkit-transition-property: -webkit-transform, opacity; -moz-transition-property: -moz-transform, opacity; -o-transition-property: top, left, opacity;
+}
+.isotope.no-transition {
+	transition-duration: 0s; -webkit-transition-duration: 0s; -moz-transition-duration: 0s; -o-transition-duration: 0s;
+}
+.isotope.no-transition .isotope-item {
+	transition-duration: 0s; -webkit-transition-duration: 0s; -moz-transition-duration: 0s; -o-transition-duration: 0s;
+}
+.isotope .isotope-item.no-transition {
+	transition-duration: 0s; -webkit-transition-duration: 0s; -moz-transition-duration: 0s; -o-transition-duration: 0s;
+}
