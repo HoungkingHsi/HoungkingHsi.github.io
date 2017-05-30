@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Program List | Houngking Hsi</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background: url(../assets/img/noise_bg.png);">
+<div class="content">
+  <div class="wrapper">
+    <div class="light"><i></i></div>
+    <hr class="line-left">
+    <hr class="line-right">
+    <div class="main">
+      <h1 class="title">Program List @Houngking Hsi</h1>
+      <div class="year">
+        <h2><a href="list.html#">2015<i></i></a></h2>
+        <div class="list">
+          <ul>
+            <li class="cls highlight">
+              <p class="date">Javascript 2016</p>
+              <p class="intro">@Houngking Hsi</p>
+            </li>
+            <li class="cls highlight">
+              <p class="date">Javascript 2015</p>
+              <p class="intro"><s>Tank Games</s></p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p><s>HTML5 WEBGames 90坦克大战</s></p>
+                <p><a href="https://tank.sourceforge.net/" title="Tank Sources" target="_blank"><img src="images/tank.png" alt="Tank Games"></a></p>
+              </div>
+            </li>
+            <li class="cls">
+              <p class="date">Javascript 2015 before</p>
+              <p class="intro"><s>Chinese Go</s></p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p><s>HTML5 WEBGames 中国围棋</s></p>
+                <p><a href="https://chinesego.sourceforge.net/" title="Chinese Go Sources" target="_blank"><img src="images/go.png" alt="Chinese Go Games"></a></p>
+              </div>
+            </li>
+            <li class="cls">
+              <p class="date">Javascript</p>
+              <p class="intro"><s>Javascript 滤镜</s></p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p><s>Javascript 滤镜</s></p>
+                <p><a href="https://filter.sourceforge.net/" title="Filter Sources" target="_blank"><img src="images/filter.png" alt="Filter"></a></p>
+              </div>
+            </li>
+            <li class="cls">
+              <p class="date">CSS3 Animate</p>
+              <p class="intro"><s>CSS3 Animate</s></p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p><s>CSS3 Animate</s></p>
+                <p><s></s></p>
+              </div>
+            </li>
+            <li class="cls">
+              <p class="date">HTML5 Rec.</p>
+              <p class="intro"><s>HTML5 Website</s></p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p><s>HTML5 Recommendation 仿站</s></p>
+                <p><a href="https://html5-rec.sourceforge.net/" title="Traveling Sources" target="_blank"><img src="images/html5.png" alt="HTML5 Rec."></a></p>
+              </div>
+            </li>
+            <li class="cls">
+              <p class="date">HTML Rec.</p>
+              <p class="intro">HTML WEBSite</p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p>HTML 企业类 仿站</p>
+                <p><a href="http://www.houngking.cc/html5-company/" title="Company Sources" target="_blank"><img src="images/company.png" alt="Company"></a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="year">
+        <h2><a href="list.html#">2014<i></i></a></h2>
+        <div class="list">
+          <ul>
+          <li class="cls highlight">
+              <p class="date">HTML Server Manager</p>
+              <p class="intro"><s>HTML Server Web</s></p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p><s>HTML 后台管理系统</s></p>
+                <p><a href="https://html-server.sourceforge.net/" title="Server Manager" target="_blank"><img src="images/server.png" alt="Server Manager"></a></p>
+              </div>
+            </li>
+            <li class="cls">
+              <p class="date">HTML Rec.</p>
+              <p class="intro">HTML WEBSite</p>
+              <p class="version">&nbsp;</p>
+              <div class="more">
+                <p>HTML 旅游类 仿站</p>
+                <p><a href="https://traveling.sourceforge.net/" title="Traveling Sources" target="_blank"><img src="images/traveling.png" alt="Traveling"></a></p>
+				<br><br><br>
+				<p><s>HTML 博客 仿站</s></p>
+                <p><a href="https://html-blog.sourceforge.net/" title="Blog Sources" target="_blank"><img src="list.html" alt="Blog"></a></p>
+				<br><br><br>
+                <p><s>HTML 音乐类 仿站</s></p>
+                <p><a href="https://html-music.sourceforge.net/" title="Music Sources" target="_blank"><img src="images/music.png" alt="Music"></a></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footer-content clearfix" style="text-align: center;">
+    <div class="copyright"> Copyright © 2016  <a href="mailto:imisslovelove@live.com">Houngking Hsi</a> </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+	$(".main .year .list").each(function (e, target) {
+	    var $target=  $(target),
+	        $ul = $target.find("ul");
+	    $target.height($ul.outerHeight()), $ul.css("position", "absolute");
+	}); 
+	$(".main .year>h2>a").click(function (e) {
+	    e.preventDefault();
+	    $(this).parents(".year").toggleClass("close");
+	});
+	</script>
+
+
+	<script type="text/javascript">
+var disqus_shortname = 'indeex';
+
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+</body>
+</html>

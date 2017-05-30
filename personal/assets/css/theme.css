@@ -1,5 +1,5 @@
 body {
-    background-image: url('/assets/img/noise_bg.png');
+    background-image: url('../../assets/img/noise_bg.png');
 }
 
 a {
@@ -24,6 +24,7 @@ code:hover {
     font-family: 'Comic Sans MS',Comic Sans;
     font-size: xx-large;
     letter-spacing: 0;
+    color: rgba(255,0,0,.7);
 }
 .name:hover {
     color: #40A0FF;
