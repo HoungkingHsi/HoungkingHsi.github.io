@@ -1,0 +1,70 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,bg_jpg,bg1_png,bg6_png,btnStart_png,currScore_png,egret_icon_png,escape_png,from_png,h2_png,mone_png,p21_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "bg1_png",
+			"type": "image",
+			"url": "assets/bg1.png"
+		},
+		{
+			"name": "bg6_png",
+			"type": "image",
+			"url": "assets/bg6.png"
+		},
+		{
+			"name": "btnStart_png",
+			"type": "image",
+			"url": "assets/btnStart.png"
+		},
+		{
+			"name": "currScore_png",
+			"type": "image",
+			"url": "assets/currScore.png"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "escape_png",
+			"type": "image",
+			"url": "assets/escape.png"
+		},
+		{
+			"name": "from_png",
+			"type": "image",
+			"url": "assets/from.png"
+		},
+		{
+			"name": "h2_png",
+			"type": "image",
+			"url": "assets/h2.png"
+		},
+		{
+			"name": "mone_png",
+			"type": "image",
+			"url": "assets/mone.png"
+		},
+		{
+			"name": "p21_png",
+			"type": "image",
+			"url": "assets/p21.png"
+		}
+	]
+}
